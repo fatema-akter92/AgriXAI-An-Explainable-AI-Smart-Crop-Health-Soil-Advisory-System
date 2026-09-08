@@ -8,3 +8,6 @@ Setup standard Python and Django gitignore definitions.
 ### [2026-09-08 17:01:04] #002 - feat: scaffold django 5.x project structure and core settings
 Initialize core configuration, secret key, installed apps, and middleware.
 
+### [2026-09-08 23:56:57] #003 - feat: add core requirements and dependency specifications
+Define numpy, matplotlib, pillow, django, whitenoise and gunicorn dependencies.
+

@@ -10,3 +10,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-08 17:01:04
 - **Summary:** Initialize core configuration, secret key, installed apps, and middleware.
 
+## Commit 3: feat: add core requirements and dependency specifications
+- **Timestamp:** 2026-09-08 23:56:57
+- **Summary:** Define numpy, matplotlib, pillow, django, whitenoise and gunicorn dependencies.
+
