@@ -5,3 +5,6 @@ Daily log of commits, technical milestones, and scientific verifications.
 ### [2026-09-08 10:05:11] #001 - chore: initialize repository with .gitignore and virtual environment setup
 Setup standard Python and Django gitignore definitions.
 
+### [2026-09-08 17:01:04] #002 - feat: scaffold django 5.x project structure and core settings
+Initialize core configuration, secret key, installed apps, and middleware.
+
