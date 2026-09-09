@@ -18,3 +18,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-09 06:52:50
 - **Summary:** Register advisor app in INSTALLED_APPS with AdvisorConfig.
 
+## Commit 5: feat: configure static and media paths for web platform
+- **Timestamp:** 2026-09-09 13:48:43
+- **Summary:** Setup STATIC_URL, STATICFILES_DIRS, MEDIA_URL, and MEDIA_ROOT.
+
