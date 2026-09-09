@@ -14,3 +14,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-08 23:56:57
 - **Summary:** Define numpy, matplotlib, pillow, django, whitenoise and gunicorn dependencies.
 
+## Commit 4: feat: initialize advisor app with modular django architecture
+- **Timestamp:** 2026-09-09 06:52:50
+- **Summary:** Register advisor app in INSTALLED_APPS with AdvisorConfig.
+

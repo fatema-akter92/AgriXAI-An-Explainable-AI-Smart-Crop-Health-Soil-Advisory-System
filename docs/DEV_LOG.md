@@ -11,3 +11,6 @@ Initialize core configuration, secret key, installed apps, and middleware.
 ### [2026-09-08 23:56:57] #003 - feat: add core requirements and dependency specifications
 Define numpy, matplotlib, pillow, django, whitenoise and gunicorn dependencies.
 
+### [2026-09-09 06:52:50] #004 - feat: initialize advisor app with modular django architecture
+Register advisor app in INSTALLED_APPS with AdvisorConfig.
+
