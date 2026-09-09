@@ -20,3 +20,6 @@ Setup STATIC_URL, STATICFILES_DIRS, MEDIA_URL, and MEDIA_ROOT.
 ### [2026-09-09 20:44:36] #006 - feat: add database configuration and sqlite3 support
 Configure default SQLite database backend in settings.py.
 
+### [2026-09-10 03:04:12] #007 - feat: configure base application urls and routing
+Define root routing in core/urls.py pointing to advisor endpoints.
+

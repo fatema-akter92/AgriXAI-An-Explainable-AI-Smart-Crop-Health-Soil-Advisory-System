@@ -26,3 +26,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-09 20:44:36
 - **Summary:** Configure default SQLite database backend in settings.py.
 
+## Commit 7: feat: configure base application urls and routing
+- **Timestamp:** 2026-09-10 03:04:12
+- **Summary:** Define root routing in core/urls.py pointing to advisor endpoints.
+
