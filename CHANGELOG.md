@@ -22,3 +22,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-09 13:48:43
 - **Summary:** Setup STATIC_URL, STATICFILES_DIRS, MEDIA_URL, and MEDIA_ROOT.
 
+## Commit 6: feat: add database configuration and sqlite3 support
+- **Timestamp:** 2026-09-09 20:44:36
+- **Summary:** Configure default SQLite database backend in settings.py.
+

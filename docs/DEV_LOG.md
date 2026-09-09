@@ -17,3 +17,6 @@ Register advisor app in INSTALLED_APPS with AdvisorConfig.
 ### [2026-09-09 13:48:43] #005 - feat: configure static and media paths for web platform
 Setup STATIC_URL, STATICFILES_DIRS, MEDIA_URL, and MEDIA_ROOT.
 
+### [2026-09-09 20:44:36] #006 - feat: add database configuration and sqlite3 support
+Configure default SQLite database backend in settings.py.
+
