@@ -38,3 +38,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-10 16:55:58
 - **Summary:** Create setup_assets.py for programmatic leaf sample generation.
 
+## Commit 10: feat: add windows run script for local development environment
+- **Timestamp:** 2026-09-10 23:51:51
+- **Summary:** Add run.bat for one-click environment activation and server startup.
+

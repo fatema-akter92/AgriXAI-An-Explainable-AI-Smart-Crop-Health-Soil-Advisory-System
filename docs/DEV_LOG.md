@@ -29,3 +29,6 @@ Document project goals, problem statement, and methodology outline.
 ### [2026-09-10 16:55:58] #009 - feat: add asset generation and setup automation script
 Create setup_assets.py for programmatic leaf sample generation.
 
+### [2026-09-10 23:51:51] #010 - feat: add windows run script for local development environment
+Add run.bat for one-click environment activation and server startup.
+
