@@ -23,3 +23,6 @@ Configure default SQLite database backend in settings.py.
 ### [2026-09-10 03:04:12] #007 - feat: configure base application urls and routing
 Define root routing in core/urls.py pointing to advisor endpoints.
 
+### [2026-09-10 10:00:05] #008 - docs: add initial project readme and fydp research scope
+Document project goals, problem statement, and methodology outline.
+

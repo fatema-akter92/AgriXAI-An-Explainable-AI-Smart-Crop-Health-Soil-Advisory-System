@@ -30,3 +30,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-10 03:04:12
 - **Summary:** Define root routing in core/urls.py pointing to advisor endpoints.
 
+## Commit 8: docs: add initial project readme and fydp research scope
+- **Timestamp:** 2026-09-10 10:00:05
+- **Summary:** Document project goals, problem statement, and methodology outline.
+
