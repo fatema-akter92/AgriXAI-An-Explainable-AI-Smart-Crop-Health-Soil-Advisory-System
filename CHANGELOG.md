@@ -34,3 +34,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-10 10:00:05
 - **Summary:** Document project goals, problem statement, and methodology outline.
 
+## Commit 9: feat: add asset generation and setup automation script
+- **Timestamp:** 2026-09-10 16:55:58
+- **Summary:** Create setup_assets.py for programmatic leaf sample generation.
+

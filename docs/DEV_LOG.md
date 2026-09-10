@@ -26,3 +26,6 @@ Define root routing in core/urls.py pointing to advisor endpoints.
 ### [2026-09-10 10:00:05] #008 - docs: add initial project readme and fydp research scope
 Document project goals, problem statement, and methodology outline.
 
+### [2026-09-10 16:55:58] #009 - feat: add asset generation and setup automation script
+Create setup_assets.py for programmatic leaf sample generation.
+
