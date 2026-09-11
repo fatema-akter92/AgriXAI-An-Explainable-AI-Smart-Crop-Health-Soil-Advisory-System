@@ -38,3 +38,6 @@ Incorporate BARC soil nutrient classification tables for Bangladesh.
 ### [2026-09-11 13:43:37] #012 - feat: implement soil pH categorization and acidity classification logic
 Add pH ranges for strongly acidic, slightly acidic, neutral, and alkaline soils.
 
+### [2026-09-11 20:39:30] #013 - feat: add primary and secondary nutrient requirement rules for rice crops
+Setup Boro, Aman, and Aus rice nutrient consumption benchmarks.
+

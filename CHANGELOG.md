@@ -50,3 +50,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-11 13:43:37
 - **Summary:** Add pH ranges for strongly acidic, slightly acidic, neutral, and alkaline soils.
 
+## Commit 13: feat: add primary and secondary nutrient requirement rules for rice crops
+- **Timestamp:** 2026-09-11 20:39:30
+- **Summary:** Setup Boro, Aman, and Aus rice nutrient consumption benchmarks.
+
