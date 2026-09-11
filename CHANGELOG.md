@@ -46,3 +46,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-11 06:47:44
 - **Summary:** Incorporate BARC soil nutrient classification tables for Bangladesh.
 
+## Commit 12: feat: implement soil pH categorization and acidity classification logic
+- **Timestamp:** 2026-09-11 13:43:37
+- **Summary:** Add pH ranges for strongly acidic, slightly acidic, neutral, and alkaline soils.
+

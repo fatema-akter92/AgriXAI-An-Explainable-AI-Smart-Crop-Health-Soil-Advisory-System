@@ -35,3 +35,6 @@ Add run.bat for one-click environment activation and server startup.
 ### [2026-09-11 06:47:44] #011 - feat: define BARC fertilizer benchmark thresholds for nitrogen, phosphorus, and potassium
 Incorporate BARC soil nutrient classification tables for Bangladesh.
 
+### [2026-09-11 13:43:37] #012 - feat: implement soil pH categorization and acidity classification logic
+Add pH ranges for strongly acidic, slightly acidic, neutral, and alkaline soils.
+
