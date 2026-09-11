@@ -32,3 +32,6 @@ Create setup_assets.py for programmatic leaf sample generation.
 ### [2026-09-10 23:51:51] #010 - feat: add windows run script for local development environment
 Add run.bat for one-click environment activation and server startup.
 
+### [2026-09-11 06:47:44] #011 - feat: define BARC fertilizer benchmark thresholds for nitrogen, phosphorus, and potassium
+Incorporate BARC soil nutrient classification tables for Bangladesh.
+

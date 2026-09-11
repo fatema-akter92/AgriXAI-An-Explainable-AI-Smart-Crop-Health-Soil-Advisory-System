@@ -42,3 +42,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-10 23:51:51
 - **Summary:** Add run.bat for one-click environment activation and server startup.
 
+## Commit 11: feat: define BARC fertilizer benchmark thresholds for nitrogen, phosphorus, and potassium
+- **Timestamp:** 2026-09-11 06:47:44
+- **Summary:** Incorporate BARC soil nutrient classification tables for Bangladesh.
+
