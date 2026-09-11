@@ -41,3 +41,6 @@ Add pH ranges for strongly acidic, slightly acidic, neutral, and alkaline soils.
 ### [2026-09-11 20:39:30] #013 - feat: add primary and secondary nutrient requirement rules for rice crops
 Setup Boro, Aman, and Aus rice nutrient consumption benchmarks.
 
+### [2026-09-12 02:59:06] #014 - feat: add nutrient deficiency and sufficiency benchmarks for jute crops
+Setup Tossha and Deshi jute nitrogen, phosphorus, and potassium benchmarks.
+

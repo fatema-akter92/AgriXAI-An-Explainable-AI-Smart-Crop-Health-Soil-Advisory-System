@@ -54,3 +54,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-11 20:39:30
 - **Summary:** Setup Boro, Aman, and Aus rice nutrient consumption benchmarks.
 
+## Commit 14: feat: add nutrient deficiency and sufficiency benchmarks for jute crops
+- **Timestamp:** 2026-09-12 02:59:06
+- **Summary:** Setup Tossha and Deshi jute nitrogen, phosphorus, and potassium benchmarks.
+
