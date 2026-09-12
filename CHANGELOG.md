@@ -62,3 +62,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-12 09:54:59
 - **Summary:** Implement area conversion logic to standardize decimal to bigha and acre.
 
+## Commit 16: feat: integrate previous crop residue nitrogen contribution factors
+- **Timestamp:** 2026-09-12 16:50:52
+- **Summary:** Add nitrogen credit deductions for potato, mustard, and pulse residues.
+

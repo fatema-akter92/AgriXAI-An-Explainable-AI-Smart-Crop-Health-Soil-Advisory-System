@@ -47,3 +47,6 @@ Setup Tossha and Deshi jute nitrogen, phosphorus, and potassium benchmarks.
 ### [2026-09-12 09:54:59] #015 - feat: define land measurement unit conversions (bigha, decimal, acre, hectare)
 Implement area conversion logic to standardize decimal to bigha and acre.
 
+### [2026-09-12 16:50:52] #016 - feat: integrate previous crop residue nitrogen contribution factors
+Add nitrogen credit deductions for potato, mustard, and pulse residues.
+
