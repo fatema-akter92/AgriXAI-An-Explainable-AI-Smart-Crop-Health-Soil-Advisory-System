@@ -66,3 +66,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-12 16:50:52
 - **Summary:** Add nitrogen credit deductions for potato, mustard, and pulse residues.
 
+## Commit 17: feat: add nutrient balance calculation formulas based on BARC guides
+- **Timestamp:** 2026-09-12 23:46:45
+- **Summary:** Formulate required fertilizer dose as function of target yield and soil test.
+

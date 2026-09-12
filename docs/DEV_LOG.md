@@ -50,3 +50,6 @@ Implement area conversion logic to standardize decimal to bigha and acre.
 ### [2026-09-12 16:50:52] #016 - feat: integrate previous crop residue nitrogen contribution factors
 Add nitrogen credit deductions for potato, mustard, and pulse residues.
 
+### [2026-09-12 23:46:45] #017 - feat: add nutrient balance calculation formulas based on BARC guides
+Formulate required fertilizer dose as function of target yield and soil test.
+
