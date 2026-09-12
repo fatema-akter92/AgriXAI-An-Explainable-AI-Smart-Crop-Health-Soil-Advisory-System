@@ -44,3 +44,6 @@ Setup Boro, Aman, and Aus rice nutrient consumption benchmarks.
 ### [2026-09-12 02:59:06] #014 - feat: add nutrient deficiency and sufficiency benchmarks for jute crops
 Setup Tossha and Deshi jute nitrogen, phosphorus, and potassium benchmarks.
 
+### [2026-09-12 09:54:59] #015 - feat: define land measurement unit conversions (bigha, decimal, acre, hectare)
+Implement area conversion logic to standardize decimal to bigha and acre.
+

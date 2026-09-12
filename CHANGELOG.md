@@ -58,3 +58,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-12 02:59:06
 - **Summary:** Setup Tossha and Deshi jute nitrogen, phosphorus, and potassium benchmarks.
 
+## Commit 15: feat: define land measurement unit conversions (bigha, decimal, acre, hectare)
+- **Timestamp:** 2026-09-12 09:54:59
+- **Summary:** Implement area conversion logic to standardize decimal to bigha and acre.
+
