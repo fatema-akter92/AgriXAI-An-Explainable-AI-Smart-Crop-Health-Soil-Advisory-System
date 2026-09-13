@@ -74,3 +74,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-13 06:42:38
 - **Summary:** Define AEZ 1-30 regional soil profiles and characteristic vulnerabilities.
 
+## Commit 19: docs: document BARC fertilizer recommendation formulas and mathematics
+- **Timestamp:** 2026-09-13 13:38:31
+- **Summary:** Add LaTeX documentation for fertilizer requirement equation.
+

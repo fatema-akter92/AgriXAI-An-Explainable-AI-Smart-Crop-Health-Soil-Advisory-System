@@ -56,3 +56,6 @@ Formulate required fertilizer dose as function of target yield and soil test.
 ### [2026-09-13 06:42:38] #018 - feat: create data models and structures for agro-ecological zones (AEZ)
 Define AEZ 1-30 regional soil profiles and characteristic vulnerabilities.
 
+### [2026-09-13 13:38:31] #019 - docs: document BARC fertilizer recommendation formulas and mathematics
+Add LaTeX documentation for fertilizer requirement equation.
+
