@@ -53,3 +53,6 @@ Add nitrogen credit deductions for potato, mustard, and pulse residues.
 ### [2026-09-12 23:46:45] #017 - feat: add nutrient balance calculation formulas based on BARC guides
 Formulate required fertilizer dose as function of target yield and soil test.
 
+### [2026-09-13 06:42:38] #018 - feat: create data models and structures for agro-ecological zones (AEZ)
+Define AEZ 1-30 regional soil profiles and characteristic vulnerabilities.
+

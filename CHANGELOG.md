@@ -70,3 +70,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-12 23:46:45
 - **Summary:** Formulate required fertilizer dose as function of target yield and soil test.
 
+## Commit 18: feat: create data models and structures for agro-ecological zones (AEZ)
+- **Timestamp:** 2026-09-13 06:42:38
+- **Summary:** Define AEZ 1-30 regional soil profiles and characteristic vulnerabilities.
+
