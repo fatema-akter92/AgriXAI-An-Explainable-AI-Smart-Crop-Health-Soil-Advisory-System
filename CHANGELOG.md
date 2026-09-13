@@ -82,3 +82,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-13 20:34:24
 - **Summary:** Verify nutrient dosage calculations against BARC manual examples.
 
+## Commit 21: feat: define 9 rice and jute disease diagnostic taxonomy
+- **Timestamp:** 2026-09-14 02:54:00
+- **Summary:** Establish classification labels for 5 rice classes and 4 jute classes.
+

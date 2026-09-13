@@ -62,3 +62,6 @@ Add LaTeX documentation for fertilizer requirement equation.
 ### [2026-09-13 20:34:24] #020 - test: add unit assertions for nutrient requirement calculation formulas
 Verify nutrient dosage calculations against BARC manual examples.
 
+### [2026-09-14 02:54:00] #021 - feat: define 9 rice and jute disease diagnostic taxonomy
+Establish classification labels for 5 rice classes and 4 jute classes.
+
