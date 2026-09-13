@@ -59,3 +59,6 @@ Define AEZ 1-30 regional soil profiles and characteristic vulnerabilities.
 ### [2026-09-13 13:38:31] #019 - docs: document BARC fertilizer recommendation formulas and mathematics
 Add LaTeX documentation for fertilizer requirement equation.
 
+### [2026-09-13 20:34:24] #020 - test: add unit assertions for nutrient requirement calculation formulas
+Verify nutrient dosage calculations against BARC manual examples.
+

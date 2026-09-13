@@ -78,3 +78,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-13 13:38:31
 - **Summary:** Add LaTeX documentation for fertilizer requirement equation.
 
+## Commit 20: test: add unit assertions for nutrient requirement calculation formulas
+- **Timestamp:** 2026-09-13 20:34:24
+- **Summary:** Verify nutrient dosage calculations against BARC manual examples.
+
