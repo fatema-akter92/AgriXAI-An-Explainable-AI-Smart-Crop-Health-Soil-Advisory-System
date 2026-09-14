@@ -86,3 +86,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-14 02:54:00
 - **Summary:** Establish classification labels for 5 rice classes and 4 jute classes.
 
+## Commit 22: feat: compile pathology metadata for rice blast (Magnaporthe oryzae)
+- **Timestamp:** 2026-09-14 09:49:53
+- **Summary:** Add etiology, symptoms, and favorable agro-climatic conditions for blast.
+

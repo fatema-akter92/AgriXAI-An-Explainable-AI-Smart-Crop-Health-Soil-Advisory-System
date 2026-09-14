@@ -65,3 +65,6 @@ Verify nutrient dosage calculations against BARC manual examples.
 ### [2026-09-14 02:54:00] #021 - feat: define 9 rice and jute disease diagnostic taxonomy
 Establish classification labels for 5 rice classes and 4 jute classes.
 
+### [2026-09-14 09:49:53] #022 - feat: compile pathology metadata for rice blast (Magnaporthe oryzae)
+Add etiology, symptoms, and favorable agro-climatic conditions for blast.
+
