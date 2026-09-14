@@ -68,3 +68,6 @@ Establish classification labels for 5 rice classes and 4 jute classes.
 ### [2026-09-14 09:49:53] #022 - feat: compile pathology metadata for rice blast (Magnaporthe oryzae)
 Add etiology, symptoms, and favorable agro-climatic conditions for blast.
 
+### [2026-09-14 16:45:46] #023 - feat: compile pathology metadata for rice bacterial leaf blight (Xanthomonas oryzae)
+Document bacterial leaf blight water-soaked lesions and control measures.
+

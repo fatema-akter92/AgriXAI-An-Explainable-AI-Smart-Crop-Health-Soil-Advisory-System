@@ -90,3 +90,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-14 09:49:53
 - **Summary:** Add etiology, symptoms, and favorable agro-climatic conditions for blast.
 
+## Commit 23: feat: compile pathology metadata for rice bacterial leaf blight (Xanthomonas oryzae)
+- **Timestamp:** 2026-09-14 16:45:46
+- **Summary:** Document bacterial leaf blight water-soaked lesions and control measures.
+
