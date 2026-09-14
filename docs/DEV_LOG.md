@@ -71,3 +71,6 @@ Add etiology, symptoms, and favorable agro-climatic conditions for blast.
 ### [2026-09-14 16:45:46] #023 - feat: compile pathology metadata for rice bacterial leaf blight (Xanthomonas oryzae)
 Document bacterial leaf blight water-soaked lesions and control measures.
 
+### [2026-09-14 23:41:39] #024 - feat: compile pathology metadata for rice brown spot (Bipolaris oryzae)
+Document fungal brown spot correlation with impoverished sandy soils.
+

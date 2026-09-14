@@ -94,3 +94,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-14 16:45:46
 - **Summary:** Document bacterial leaf blight water-soaked lesions and control measures.
 
+## Commit 24: feat: compile pathology metadata for rice brown spot (Bipolaris oryzae)
+- **Timestamp:** 2026-09-14 23:41:39
+- **Summary:** Document fungal brown spot correlation with impoverished sandy soils.
+
