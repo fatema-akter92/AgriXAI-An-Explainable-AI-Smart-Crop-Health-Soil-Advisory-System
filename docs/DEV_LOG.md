@@ -83,3 +83,6 @@ Add seed-borne fungal stem rot pathogenesis and management protocols.
 ### [2026-09-15 20:29:18] #027 - feat: compile pathology metadata for jute cercospora leaf spot
 Add leaf spot lesion characteristics and relative humidity triggers.
 
+### [2026-09-16 02:48:54] #028 - feat: compile pathology metadata for jute golden mosaic virus and healthy jute
+Document whitefly transmitted geminivirus pathology and healthy leaf standards.
+

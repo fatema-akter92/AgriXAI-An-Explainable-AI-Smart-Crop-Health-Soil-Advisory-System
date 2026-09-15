@@ -110,3 +110,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-15 20:29:18
 - **Summary:** Add leaf spot lesion characteristics and relative humidity triggers.
 
+## Commit 28: feat: compile pathology metadata for jute golden mosaic virus and healthy jute
+- **Timestamp:** 2026-09-16 02:48:54
+- **Summary:** Document whitefly transmitted geminivirus pathology and healthy leaf standards.
+
