@@ -106,3 +106,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-15 13:33:25
 - **Summary:** Add seed-borne fungal stem rot pathogenesis and management protocols.
 
+## Commit 27: feat: compile pathology metadata for jute cercospora leaf spot
+- **Timestamp:** 2026-09-15 20:29:18
+- **Summary:** Add leaf spot lesion characteristics and relative humidity triggers.
+

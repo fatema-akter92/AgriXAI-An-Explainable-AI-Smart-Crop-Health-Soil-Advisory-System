@@ -80,3 +80,6 @@ Document leafhopper vector transmission and baseline healthy leaf features.
 ### [2026-09-15 13:33:25] #026 - feat: compile pathology metadata for jute stem rot (Macrophomina phaseolina)
 Add seed-borne fungal stem rot pathogenesis and management protocols.
 
+### [2026-09-15 20:29:18] #027 - feat: compile pathology metadata for jute cercospora leaf spot
+Add leaf spot lesion characteristics and relative humidity triggers.
+
