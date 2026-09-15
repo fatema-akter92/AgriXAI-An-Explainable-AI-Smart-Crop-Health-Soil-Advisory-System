@@ -102,3 +102,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-15 06:37:32
 - **Summary:** Document leafhopper vector transmission and baseline healthy leaf features.
 
+## Commit 26: feat: compile pathology metadata for jute stem rot (Macrophomina phaseolina)
+- **Timestamp:** 2026-09-15 13:33:25
+- **Summary:** Add seed-borne fungal stem rot pathogenesis and management protocols.
+

@@ -77,3 +77,6 @@ Document fungal brown spot correlation with impoverished sandy soils.
 ### [2026-09-15 06:37:32] #025 - feat: compile pathology metadata for rice tungro virus and healthy rice
 Document leafhopper vector transmission and baseline healthy leaf features.
 
+### [2026-09-15 13:33:25] #026 - feat: compile pathology metadata for jute stem rot (Macrophomina phaseolina)
+Add seed-borne fungal stem rot pathogenesis and management protocols.
+
