@@ -74,3 +74,6 @@ Document bacterial leaf blight water-soaked lesions and control measures.
 ### [2026-09-14 23:41:39] #024 - feat: compile pathology metadata for rice brown spot (Bipolaris oryzae)
 Document fungal brown spot correlation with impoverished sandy soils.
 
+### [2026-09-15 06:37:32] #025 - feat: compile pathology metadata for rice tungro virus and healthy rice
+Document leafhopper vector transmission and baseline healthy leaf features.
+

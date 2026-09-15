@@ -98,3 +98,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-14 23:41:39
 - **Summary:** Document fungal brown spot correlation with impoverished sandy soils.
 
+## Commit 25: feat: compile pathology metadata for rice tungro virus and healthy rice
+- **Timestamp:** 2026-09-15 06:37:32
+- **Summary:** Document leafhopper vector transmission and baseline healthy leaf features.
+
