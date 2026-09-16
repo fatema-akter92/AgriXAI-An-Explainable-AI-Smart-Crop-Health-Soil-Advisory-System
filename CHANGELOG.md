@@ -122,3 +122,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-16 16:40:40
 - **Summary:** Add /api/samples/ JSON endpoint returning leaf catalog metadata.
 
+## Commit 31: feat: introduce deep learning inference service structure
+- **Timestamp:** 2026-09-16 23:36:33
+- **Summary:** Create advisor/services/ai_engine.py with model pipeline architecture.
+

@@ -92,3 +92,6 @@ Generate and index authentic sample images for rice and jute classes.
 ### [2026-09-16 16:40:40] #030 - feat: implement sample photo catalog API endpoint for frontend demo
 Add /api/samples/ JSON endpoint returning leaf catalog metadata.
 
+### [2026-09-16 23:36:33] #031 - feat: introduce deep learning inference service structure
+Create advisor/services/ai_engine.py with model pipeline architecture.
+
