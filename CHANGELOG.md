@@ -118,3 +118,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-16 09:44:47
 - **Summary:** Generate and index authentic sample images for rice and jute classes.
 
+## Commit 30: feat: implement sample photo catalog API endpoint for frontend demo
+- **Timestamp:** 2026-09-16 16:40:40
+- **Summary:** Add /api/samples/ JSON endpoint returning leaf catalog metadata.
+
