@@ -86,3 +86,6 @@ Add leaf spot lesion characteristics and relative humidity triggers.
 ### [2026-09-16 02:48:54] #028 - feat: compile pathology metadata for jute golden mosaic virus and healthy jute
 Document whitefly transmitted geminivirus pathology and healthy leaf standards.
 
+### [2026-09-16 09:44:47] #029 - feat: organize sample leaf image catalog and reference photos
+Generate and index authentic sample images for rice and jute classes.
+

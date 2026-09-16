@@ -114,3 +114,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-16 02:48:54
 - **Summary:** Document whitefly transmitted geminivirus pathology and healthy leaf standards.
 
+## Commit 29: feat: organize sample leaf image catalog and reference photos
+- **Timestamp:** 2026-09-16 09:44:47
+- **Summary:** Generate and index authentic sample images for rice and jute classes.
+
