@@ -126,3 +126,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-16 23:36:33
 - **Summary:** Create advisor/services/ai_engine.py with model pipeline architecture.
 
+## Commit 32: feat: configure MobileNetV2 lightweight CNN backbone for edge deployment
+- **Timestamp:** 2026-09-17 06:32:26
+- **Summary:** Define depthwise separable convolution architecture with inverted residuals.
+

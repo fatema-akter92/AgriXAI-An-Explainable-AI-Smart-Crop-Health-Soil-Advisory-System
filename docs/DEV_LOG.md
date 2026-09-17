@@ -95,3 +95,6 @@ Add /api/samples/ JSON endpoint returning leaf catalog metadata.
 ### [2026-09-16 23:36:33] #031 - feat: introduce deep learning inference service structure
 Create advisor/services/ai_engine.py with model pipeline architecture.
 
+### [2026-09-17 06:32:26] #032 - feat: configure MobileNetV2 lightweight CNN backbone for edge deployment
+Define depthwise separable convolution architecture with inverted residuals.
+
