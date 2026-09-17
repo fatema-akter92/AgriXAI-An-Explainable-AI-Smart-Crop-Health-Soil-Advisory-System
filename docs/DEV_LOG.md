@@ -98,3 +98,6 @@ Create advisor/services/ai_engine.py with model pipeline architecture.
 ### [2026-09-17 06:32:26] #032 - feat: configure MobileNetV2 lightweight CNN backbone for edge deployment
 Define depthwise separable convolution architecture with inverted residuals.
 
+### [2026-09-17 13:28:19] #033 - feat: add image pre-processing and tensor normalization pipeline (224x224)
+Resize uploaded leaf images and convert to normalized floating-point arrays.
+

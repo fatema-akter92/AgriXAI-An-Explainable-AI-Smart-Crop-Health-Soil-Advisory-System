@@ -130,3 +130,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-17 06:32:26
 - **Summary:** Define depthwise separable convolution architecture with inverted residuals.
 
+## Commit 33: feat: add image pre-processing and tensor normalization pipeline (224x224)
+- **Timestamp:** 2026-09-17 13:28:19
+- **Summary:** Resize uploaded leaf images and convert to normalized floating-point arrays.
+
