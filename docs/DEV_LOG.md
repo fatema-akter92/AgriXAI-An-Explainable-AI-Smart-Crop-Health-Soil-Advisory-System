@@ -101,3 +101,6 @@ Define depthwise separable convolution architecture with inverted residuals.
 ### [2026-09-17 13:28:19] #033 - feat: add image pre-processing and tensor normalization pipeline (224x224)
 Resize uploaded leaf images and convert to normalized floating-point arrays.
 
+### [2026-09-17 20:24:12] #034 - feat: implement RGB channel standard deviation and mean normalization
+Normalize input pixel values using ImageNet mean [0.485, 0.456, 0.406].
+

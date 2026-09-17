@@ -134,3 +134,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-17 13:28:19
 - **Summary:** Resize uploaded leaf images and convert to normalized floating-point arrays.
 
+## Commit 34: feat: implement RGB channel standard deviation and mean normalization
+- **Timestamp:** 2026-09-17 20:24:12
+- **Summary:** Normalize input pixel values using ImageNet mean [0.485, 0.456, 0.406].
+
