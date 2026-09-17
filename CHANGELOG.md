@@ -138,3 +138,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-17 20:24:12
 - **Summary:** Normalize input pixel values using ImageNet mean [0.485, 0.456, 0.406].
 
+## Commit 35: feat: define multi-class Softmax probability distribution computation
+- **Timestamp:** 2026-09-18 02:43:48
+- **Summary:** Implement numerically stable Softmax over final 9-class logits.
+
