@@ -107,3 +107,6 @@ Normalize input pixel values using ImageNet mean [0.485, 0.456, 0.406].
 ### [2026-09-18 02:43:48] #035 - feat: define multi-class Softmax probability distribution computation
 Implement numerically stable Softmax over final 9-class logits.
 
+### [2026-09-18 09:39:41] #036 - feat: implement confidence score thresholding and primary class selection
+Extract highest probability class as primary diagnostic prediction.
+

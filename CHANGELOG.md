@@ -142,3 +142,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-18 02:43:48
 - **Summary:** Implement numerically stable Softmax over final 9-class logits.
 
+## Commit 36: feat: implement confidence score thresholding and primary class selection
+- **Timestamp:** 2026-09-18 09:39:41
+- **Summary:** Extract highest probability class as primary diagnostic prediction.
+
