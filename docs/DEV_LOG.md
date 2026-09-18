@@ -113,3 +113,6 @@ Extract highest probability class as primary diagnostic prediction.
 ### [2026-09-18 16:35:34] #037 - feat: add top-3 predicted class ranking and margin calculation
 Sort probabilities descending to show alternate differential diagnoses.
 
+### [2026-09-18 23:31:27] #038 - perf: optimize tensor inference latency for web requests
+Vectorize array operations to achieve sub-100ms inference turnaround.
+
