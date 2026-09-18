@@ -110,3 +110,6 @@ Implement numerically stable Softmax over final 9-class logits.
 ### [2026-09-18 09:39:41] #036 - feat: implement confidence score thresholding and primary class selection
 Extract highest probability class as primary diagnostic prediction.
 
+### [2026-09-18 16:35:34] #037 - feat: add top-3 predicted class ranking and margin calculation
+Sort probabilities descending to show alternate differential diagnoses.
+

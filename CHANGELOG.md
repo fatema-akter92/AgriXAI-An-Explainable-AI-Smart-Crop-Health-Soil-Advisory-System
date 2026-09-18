@@ -146,3 +146,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-18 09:39:41
 - **Summary:** Extract highest probability class as primary diagnostic prediction.
 
+## Commit 37: feat: add top-3 predicted class ranking and margin calculation
+- **Timestamp:** 2026-09-18 16:35:34
+- **Summary:** Sort probabilities descending to show alternate differential diagnoses.
+
