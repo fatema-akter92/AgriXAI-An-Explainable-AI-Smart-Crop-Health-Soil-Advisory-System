@@ -122,3 +122,6 @@ Add PIL verification for corrupted or non-image uploaded files.
 ### [2026-09-19 13:23:13] #040 - test: verify model inference with synthetic and real leaf inputs
 Run sanity tests across all 9 disease categories.
 
+### [2026-09-19 20:19:06] #041 - feat: add fallback rule-based classification heuristics for test samples
+Ensure demo presets map reliably to their ground-truth diagnostic classes.
+

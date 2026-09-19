@@ -162,3 +162,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-19 13:23:13
 - **Summary:** Run sanity tests across all 9 disease categories.
 
+## Commit 41: feat: add fallback rule-based classification heuristics for test samples
+- **Timestamp:** 2026-09-19 20:19:06
+- **Summary:** Ensure demo presets map reliably to their ground-truth diagnostic classes.
+
