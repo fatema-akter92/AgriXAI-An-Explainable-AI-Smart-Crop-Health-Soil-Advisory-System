@@ -154,3 +154,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-18 23:31:27
 - **Summary:** Vectorize array operations to achieve sub-100ms inference turnaround.
 
+## Commit 39: feat: handle unsupported image format exceptions and validation
+- **Timestamp:** 2026-09-19 06:27:20
+- **Summary:** Add PIL verification for corrupted or non-image uploaded files.
+
