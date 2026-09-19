@@ -125,3 +125,6 @@ Run sanity tests across all 9 disease categories.
 ### [2026-09-19 20:19:06] #041 - feat: add fallback rule-based classification heuristics for test samples
 Ensure demo presets map reliably to their ground-truth diagnostic classes.
 
+### [2026-09-20 02:38:42] #042 - docs: document convolutional neural network architecture and hyperparameters
+Write model architecture summary including layer counts and parameter specs.
+

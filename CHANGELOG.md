@@ -166,3 +166,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-19 20:19:06
 - **Summary:** Ensure demo presets map reliably to their ground-truth diagnostic classes.
 
+## Commit 42: docs: document convolutional neural network architecture and hyperparameters
+- **Timestamp:** 2026-09-20 02:38:42
+- **Summary:** Write model architecture summary including layer counts and parameter specs.
+
