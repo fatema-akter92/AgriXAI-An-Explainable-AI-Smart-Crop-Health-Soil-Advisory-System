@@ -158,3 +158,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-19 06:27:20
 - **Summary:** Add PIL verification for corrupted or non-image uploaded files.
 
+## Commit 40: test: verify model inference with synthetic and real leaf inputs
+- **Timestamp:** 2026-09-19 13:23:13
+- **Summary:** Run sanity tests across all 9 disease categories.
+

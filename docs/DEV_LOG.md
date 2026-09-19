@@ -119,3 +119,6 @@ Vectorize array operations to achieve sub-100ms inference turnaround.
 ### [2026-09-19 06:27:20] #039 - feat: handle unsupported image format exceptions and validation
 Add PIL verification for corrupted or non-image uploaded files.
 
+### [2026-09-19 13:23:13] #040 - test: verify model inference with synthetic and real leaf inputs
+Run sanity tests across all 9 disease categories.
+
