@@ -178,3 +178,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-20 16:30:28
 - **Summary:** Hook into layer 16 expansion convolution to capture spatial activations.
 
+## Commit 45: feat: calculate global average pooling gradients across feature maps
+- **Timestamp:** 2026-09-20 23:26:21
+- **Summary:** Compute importance weights alpha_k via spatial gradient pooling.
+
