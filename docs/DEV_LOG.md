@@ -128,3 +128,6 @@ Ensure demo presets map reliably to their ground-truth diagnostic classes.
 ### [2026-09-20 02:38:42] #042 - docs: document convolutional neural network architecture and hyperparameters
 Write model architecture summary including layer counts and parameter specs.
 
+### [2026-09-20 09:34:35] #043 - feat: initialize explainable AI (XAI) service module
+Add Grad-CAM visualization framework to make CNN predictions interpretable.
+

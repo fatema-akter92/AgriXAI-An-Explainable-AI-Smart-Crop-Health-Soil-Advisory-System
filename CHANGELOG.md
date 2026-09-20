@@ -170,3 +170,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-20 02:38:42
 - **Summary:** Write model architecture summary including layer counts and parameter specs.
 
+## Commit 43: feat: initialize explainable AI (XAI) service module
+- **Timestamp:** 2026-09-20 09:34:35
+- **Summary:** Add Grad-CAM visualization framework to make CNN predictions interpretable.
+
