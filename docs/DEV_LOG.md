@@ -131,3 +131,6 @@ Write model architecture summary including layer counts and parameter specs.
 ### [2026-09-20 09:34:35] #043 - feat: initialize explainable AI (XAI) service module
 Add Grad-CAM visualization framework to make CNN predictions interpretable.
 
+### [2026-09-20 16:30:28] #044 - feat: extract feature activation maps from final convolutional bottleneck layer
+Hook into layer 16 expansion convolution to capture spatial activations.
+
