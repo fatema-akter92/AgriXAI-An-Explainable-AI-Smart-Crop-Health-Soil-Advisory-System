@@ -182,3 +182,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-20 23:26:21
 - **Summary:** Compute importance weights alpha_k via spatial gradient pooling.
 
+## Commit 46: feat: apply ReLU activation to filter positive contributing visual features
+- **Timestamp:** 2026-09-21 06:22:14
+- **Summary:** Discard negative gradient influences to isolate target class evidence.
+

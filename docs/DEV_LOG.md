@@ -137,3 +137,6 @@ Hook into layer 16 expansion convolution to capture spatial activations.
 ### [2026-09-20 23:26:21] #045 - feat: calculate global average pooling gradients across feature maps
 Compute importance weights alpha_k via spatial gradient pooling.
 
+### [2026-09-21 06:22:14] #046 - feat: apply ReLU activation to filter positive contributing visual features
+Discard negative gradient influences to isolate target class evidence.
+
