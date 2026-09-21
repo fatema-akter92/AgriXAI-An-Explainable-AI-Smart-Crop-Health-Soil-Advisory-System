@@ -146,3 +146,6 @@ Bilinearly upsample 7x7 activation grids to 224x224 pixel resolution.
 ### [2026-09-21 20:14:00] #048 - feat: apply Jet colormap for high-contrast thermal visualization
 Transform normalized heat intensities into RGB thermal color spectrum.
 
+### [2026-09-22 02:33:36] #049 - feat: implement alpha-blending to superimpose heatmap on leaf image
+Blend heatmap (40%) with original leaf photo (60%) for lesion localization.
+

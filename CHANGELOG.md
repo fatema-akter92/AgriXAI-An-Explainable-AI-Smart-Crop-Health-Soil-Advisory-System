@@ -194,3 +194,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-21 20:14:00
 - **Summary:** Transform normalized heat intensities into RGB thermal color spectrum.
 
+## Commit 49: feat: implement alpha-blending to superimpose heatmap on leaf image
+- **Timestamp:** 2026-09-22 02:33:36
+- **Summary:** Blend heatmap (40%) with original leaf photo (60%) for lesion localization.
+
