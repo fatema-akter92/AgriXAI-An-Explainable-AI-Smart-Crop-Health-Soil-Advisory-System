@@ -143,3 +143,6 @@ Discard negative gradient influences to isolate target class evidence.
 ### [2026-09-21 13:18:07] #047 - feat: interpolate 2D activation maps to match original leaf dimensions
 Bilinearly upsample 7x7 activation grids to 224x224 pixel resolution.
 
+### [2026-09-21 20:14:00] #048 - feat: apply Jet colormap for high-contrast thermal visualization
+Transform normalized heat intensities into RGB thermal color spectrum.
+

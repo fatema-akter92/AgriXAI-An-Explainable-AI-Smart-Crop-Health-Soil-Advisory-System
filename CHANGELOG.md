@@ -190,3 +190,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-21 13:18:07
 - **Summary:** Bilinearly upsample 7x7 activation grids to 224x224 pixel resolution.
 
+## Commit 48: feat: apply Jet colormap for high-contrast thermal visualization
+- **Timestamp:** 2026-09-21 20:14:00
+- **Summary:** Transform normalized heat intensities into RGB thermal color spectrum.
+
