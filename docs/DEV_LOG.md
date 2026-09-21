@@ -140,3 +140,6 @@ Compute importance weights alpha_k via spatial gradient pooling.
 ### [2026-09-21 06:22:14] #046 - feat: apply ReLU activation to filter positive contributing visual features
 Discard negative gradient influences to isolate target class evidence.
 
+### [2026-09-21 13:18:07] #047 - feat: interpolate 2D activation maps to match original leaf dimensions
+Bilinearly upsample 7x7 activation grids to 224x224 pixel resolution.
+

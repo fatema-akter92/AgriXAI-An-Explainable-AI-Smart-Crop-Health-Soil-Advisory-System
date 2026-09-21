@@ -186,3 +186,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-21 06:22:14
 - **Summary:** Discard negative gradient influences to isolate target class evidence.
 
+## Commit 47: feat: interpolate 2D activation maps to match original leaf dimensions
+- **Timestamp:** 2026-09-21 13:18:07
+- **Summary:** Bilinearly upsample 7x7 activation grids to 224x224 pixel resolution.
+
