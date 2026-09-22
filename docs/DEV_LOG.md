@@ -149,3 +149,6 @@ Transform normalized heat intensities into RGB thermal color spectrum.
 ### [2026-09-22 02:33:36] #049 - feat: implement alpha-blending to superimpose heatmap on leaf image
 Blend heatmap (40%) with original leaf photo (60%) for lesion localization.
 
+### [2026-09-22 09:29:29] #050 - feat: calculate infected focal region percentage based on heat thresholds
+Segment activated pixel cluster to determine lesion blade coverage.
+

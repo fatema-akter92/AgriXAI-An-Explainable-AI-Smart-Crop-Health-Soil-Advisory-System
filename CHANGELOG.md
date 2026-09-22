@@ -198,3 +198,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-22 02:33:36
 - **Summary:** Blend heatmap (40%) with original leaf photo (60%) for lesion localization.
 
+## Commit 50: feat: calculate infected focal region percentage based on heat thresholds
+- **Timestamp:** 2026-09-22 09:29:29
+- **Summary:** Segment activated pixel cluster to determine lesion blade coverage.
+
