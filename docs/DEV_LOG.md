@@ -152,3 +152,6 @@ Blend heatmap (40%) with original leaf photo (60%) for lesion localization.
 ### [2026-09-22 09:29:29] #050 - feat: calculate infected focal region percentage based on heat thresholds
 Segment activated pixel cluster to determine lesion blade coverage.
 
+### [2026-09-22 16:25:22] #051 - feat: generate base64 encoded strings for original, heatmap, and overlay images
+Encode visual outputs to data URI scheme for zero-disk frontend transmission.
+
