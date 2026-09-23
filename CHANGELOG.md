@@ -214,3 +214,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-23 06:17:08
 - **Summary:** Use in-memory BytesIO buffers to prevent disk I/O bottlenecks.
 
+## Commit 54: test: validate Grad-CAM overlay generation across all 9 disease classes
+- **Timestamp:** 2026-09-23 13:13:01
+- **Summary:** Ensure heatmap overlays generate without color clipping or dimension errors.
+
