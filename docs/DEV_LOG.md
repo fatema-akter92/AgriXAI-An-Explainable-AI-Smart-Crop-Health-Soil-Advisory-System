@@ -173,3 +173,6 @@ Classify nitrogen ppm into Deficient (<25), Medium (25-45), or Excess (>45).
 ### [2026-09-24 09:24:23] #057 - feat: implement phosphorus (P) status classification algorithm
 Classify phosphorus ppm into Deficient (<12), Optimum (14-24), or High (>24).
 
+### [2026-09-24 16:20:16] #058 - feat: implement potassium (K) status classification algorithm
+Classify potassium meq into Deficient (<0.15), Optimum (0.18-0.28), or High (>0.28).
+
