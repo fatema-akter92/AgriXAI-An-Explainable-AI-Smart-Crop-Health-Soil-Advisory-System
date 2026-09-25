@@ -182,3 +182,6 @@ Determine if soil pH is Strongly Acidic, Favorable, or Alkaline.
 ### [2026-09-25 06:12:02] #060 - feat: formulate 0-100 composite soil health scoring algorithm
 Develop normalized scoring function combining chemical nutrient indices.
 
+### [2026-09-25 13:07:55] #061 - feat: assign weighted coefficients to primary macronutrients (N:35%, P:25%, K:25%, pH:15%)
+Weight individual parameter sub-scores to compute balanced soil health.
+

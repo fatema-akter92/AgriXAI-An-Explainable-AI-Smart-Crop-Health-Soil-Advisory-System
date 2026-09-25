@@ -242,3 +242,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-25 06:12:02
 - **Summary:** Develop normalized scoring function combining chemical nutrient indices.
 
+## Commit 61: feat: assign weighted coefficients to primary macronutrients (N:35%, P:25%, K:25%, pH:15%)
+- **Timestamp:** 2026-09-25 13:07:55
+- **Summary:** Weight individual parameter sub-scores to compute balanced soil health.
+
