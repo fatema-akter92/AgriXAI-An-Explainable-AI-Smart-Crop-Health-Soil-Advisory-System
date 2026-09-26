@@ -258,3 +258,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-26 09:19:17
 - **Summary:** Verify that depleted soil yields <30 score and balanced soil yields 90+ score.
 
+## Commit 65: docs: document soil health scoring methodology and mathematical weights
+- **Timestamp:** 2026-09-26 16:15:10
+- **Summary:** Document mathematical formulation and justification for nutrient weights.
+

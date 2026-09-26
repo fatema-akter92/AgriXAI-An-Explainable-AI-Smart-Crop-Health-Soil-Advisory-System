@@ -194,3 +194,6 @@ Produce personalized agronomic tips explaining soil condition implications.
 ### [2026-09-26 09:19:17] #064 - test: verify soil score edge cases (all deficient vs all optimal)
 Verify that depleted soil yields <30 score and balanced soil yields 90+ score.
 
+### [2026-09-26 16:15:10] #065 - docs: document soil health scoring methodology and mathematical weights
+Document mathematical formulation and justification for nutrient weights.
+
