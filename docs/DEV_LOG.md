@@ -197,3 +197,6 @@ Verify that depleted soil yields <30 score and balanced soil yields 90+ score.
 ### [2026-09-26 16:15:10] #065 - docs: document soil health scoring methodology and mathematical weights
 Document mathematical formulation and justification for nutrient weights.
 
+### [2026-09-26 23:11:03] #066 - feat: initialize disease-soil linkage reasoning engine
+Create advisor/services/disease_soil_linker.py for cross-domain causal linking.
+

@@ -262,3 +262,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-26 16:15:10
 - **Summary:** Document mathematical formulation and justification for nutrient weights.
 
+## Commit 66: feat: initialize disease-soil linkage reasoning engine
+- **Timestamp:** 2026-09-26 23:11:03
+- **Summary:** Create advisor/services/disease_soil_linker.py for cross-domain causal linking.
+
