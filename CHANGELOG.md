@@ -274,3 +274,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-27 13:02:49
 - **Summary:** Identify nitrogen-induced soft leaf tissues as infection vectors for Xanthomonas.
 
+## Commit 69: feat: map severe nitrogen and potassium deficiency links with rice brown spot
+- **Timestamp:** 2026-09-27 19:58:42
+- **Summary:** Link brown spot epidemics with nutrient-starved, silica/potassium deficient soils.
+

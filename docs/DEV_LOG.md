@@ -206,3 +206,6 @@ Link high nitrogen (>50 ppm) with lush foliage and blast fungus proliferation.
 ### [2026-09-27 13:02:49] #068 - feat: map nitrogen overload and high humidity links with bacterial leaf blight
 Identify nitrogen-induced soft leaf tissues as infection vectors for Xanthomonas.
 
+### [2026-09-27 19:58:42] #069 - feat: map severe nitrogen and potassium deficiency links with rice brown spot
+Link brown spot epidemics with nutrient-starved, silica/potassium deficient soils.
+
