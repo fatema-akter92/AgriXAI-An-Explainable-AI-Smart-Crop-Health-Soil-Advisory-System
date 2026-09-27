@@ -266,3 +266,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-26 23:11:03
 - **Summary:** Create advisor/services/disease_soil_linker.py for cross-domain causal linking.
 
+## Commit 67: feat: map excess nitrogen correlation with rice blast susceptibility
+- **Timestamp:** 2026-09-27 06:06:56
+- **Summary:** Link high nitrogen (>50 ppm) with lush foliage and blast fungus proliferation.
+

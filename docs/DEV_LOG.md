@@ -200,3 +200,6 @@ Document mathematical formulation and justification for nutrient weights.
 ### [2026-09-26 23:11:03] #066 - feat: initialize disease-soil linkage reasoning engine
 Create advisor/services/disease_soil_linker.py for cross-domain causal linking.
 
+### [2026-09-27 06:06:56] #067 - feat: map excess nitrogen correlation with rice blast susceptibility
+Link high nitrogen (>50 ppm) with lush foliage and blast fungus proliferation.
+
