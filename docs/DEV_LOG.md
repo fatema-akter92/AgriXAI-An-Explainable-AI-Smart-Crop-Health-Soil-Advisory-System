@@ -209,3 +209,6 @@ Identify nitrogen-induced soft leaf tissues as infection vectors for Xanthomonas
 ### [2026-09-27 19:58:42] #069 - feat: map severe nitrogen and potassium deficiency links with rice brown spot
 Link brown spot epidemics with nutrient-starved, silica/potassium deficient soils.
 
+### [2026-09-28 02:18:18] #070 - feat: map acidic soil and potassium deficiency triggers for jute stem rot
+Link pH < 5.5 and potassium starvation with Rhizoctonia / Macrophomina stem rot.
+

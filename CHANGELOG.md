@@ -278,3 +278,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-27 19:58:42
 - **Summary:** Link brown spot epidemics with nutrient-starved, silica/potassium deficient soils.
 
+## Commit 70: feat: map acidic soil and potassium deficiency triggers for jute stem rot
+- **Timestamp:** 2026-09-28 02:18:18
+- **Summary:** Link pH < 5.5 and potassium starvation with Rhizoctonia / Macrophomina stem rot.
+
