@@ -212,3 +212,6 @@ Link brown spot epidemics with nutrient-starved, silica/potassium deficient soil
 ### [2026-09-28 02:18:18] #070 - feat: map acidic soil and potassium deficiency triggers for jute stem rot
 Link pH < 5.5 and potassium starvation with Rhizoctonia / Macrophomina stem rot.
 
+### [2026-09-28 09:14:11] #071 - feat: map nitrogen and potassium imbalance factors for jute leaf spot
+Correlate Cercospora spot severity with poor potash levels in jute fields.
+

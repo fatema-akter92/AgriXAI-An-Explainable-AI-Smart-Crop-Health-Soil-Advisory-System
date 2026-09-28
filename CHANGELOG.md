@@ -282,3 +282,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-28 02:18:18
 - **Summary:** Link pH < 5.5 and potassium starvation with Rhizoctonia / Macrophomina stem rot.
 
+## Commit 71: feat: map nitrogen and potassium imbalance factors for jute leaf spot
+- **Timestamp:** 2026-09-28 09:14:11
+- **Summary:** Correlate Cercospora spot severity with poor potash levels in jute fields.
+
