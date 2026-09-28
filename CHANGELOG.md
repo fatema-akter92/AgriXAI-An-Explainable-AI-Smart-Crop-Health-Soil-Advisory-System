@@ -286,3 +286,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-28 09:14:11
 - **Summary:** Correlate Cercospora spot severity with poor potash levels in jute fields.
 
+## Commit 72: feat: generate scientific causal factor summaries for diagnostic reports
+- **Timestamp:** 2026-09-28 16:10:04
+- **Summary:** Summarize identified soil vulnerabilities directly aggravating observed leaf pathology.
+
