@@ -218,3 +218,6 @@ Correlate Cercospora spot severity with poor potash levels in jute fields.
 ### [2026-09-28 16:10:04] #072 - feat: generate scientific causal factor summaries for diagnostic reports
 Summarize identified soil vulnerabilities directly aggravating observed leaf pathology.
 
+### [2026-09-28 23:05:57] #073 - feat: formulate soil mitigation recommendations to prevent disease relapse
+Provide soil amendment guidelines to break the disease susceptibility cycle.
+
