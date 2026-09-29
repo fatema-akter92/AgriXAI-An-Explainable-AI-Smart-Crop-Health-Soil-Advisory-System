@@ -224,3 +224,6 @@ Provide soil amendment guidelines to break the disease susceptibility cycle.
 ### [2026-09-29 06:01:50] #074 - test: verify disease-soil linkage output for rice and jute pathogens
 Assert linkage engine correctly tags excess nitrogen during blast predictions.
 
+### [2026-09-29 12:57:43] #075 - feat: create unified advisory generator combining AI and soil analysis
+Create advisor/services/advisory_generator.py assembling comprehensive response.
+

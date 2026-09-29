@@ -298,3 +298,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-29 06:01:50
 - **Summary:** Assert linkage engine correctly tags excess nitrogen during blast predictions.
 
+## Commit 75: feat: create unified advisory generator combining AI and soil analysis
+- **Timestamp:** 2026-09-29 12:57:43
+- **Summary:** Create advisor/services/advisory_generator.py assembling comprehensive response.
+
