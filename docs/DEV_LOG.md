@@ -221,3 +221,6 @@ Summarize identified soil vulnerabilities directly aggravating observed leaf pat
 ### [2026-09-28 23:05:57] #073 - feat: formulate soil mitigation recommendations to prevent disease relapse
 Provide soil amendment guidelines to break the disease susceptibility cycle.
 
+### [2026-09-29 06:01:50] #074 - test: verify disease-soil linkage output for rice and jute pathogens
+Assert linkage engine correctly tags excess nitrogen during blast predictions.
+

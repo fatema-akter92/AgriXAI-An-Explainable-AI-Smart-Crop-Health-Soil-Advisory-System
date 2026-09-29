@@ -294,3 +294,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-28 23:05:57
 - **Summary:** Provide soil amendment guidelines to break the disease susceptibility cycle.
 
+## Commit 74: test: verify disease-soil linkage output for rice and jute pathogens
+- **Timestamp:** 2026-09-29 06:01:50
+- **Summary:** Assert linkage engine correctly tags excess nitrogen during blast predictions.
+
