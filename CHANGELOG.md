@@ -302,3 +302,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-29 12:57:43
 - **Summary:** Create advisor/services/advisory_generator.py assembling comprehensive response.
 
+## Commit 76: feat: calculate precise fertilizer dosages (Urea, TSP, MoP, Gypsum, Zinc)
+- **Timestamp:** 2026-09-29 19:53:36
+- **Summary:** Implement stoichiometric nutrient conversion into standard fertilizer bags.
+

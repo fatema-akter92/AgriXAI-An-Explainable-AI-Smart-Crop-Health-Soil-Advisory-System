@@ -227,3 +227,6 @@ Assert linkage engine correctly tags excess nitrogen during blast predictions.
 ### [2026-09-29 12:57:43] #075 - feat: create unified advisory generator combining AI and soil analysis
 Create advisor/services/advisory_generator.py assembling comprehensive response.
 
+### [2026-09-29 19:53:36] #076 - feat: calculate precise fertilizer dosages (Urea, TSP, MoP, Gypsum, Zinc)
+Implement stoichiometric nutrient conversion into standard fertilizer bags.
+
