@@ -230,3 +230,6 @@ Create advisor/services/advisory_generator.py assembling comprehensive response.
 ### [2026-09-29 19:53:36] #076 - feat: calculate precise fertilizer dosages (Urea, TSP, MoP, Gypsum, Zinc)
 Implement stoichiometric nutrient conversion into standard fertilizer bags.
 
+### [2026-09-30 02:13:12] #077 - feat: scale fertilizer quantity based on farm area and measurement unit
+Apply area scaling factors for custom farmer land parcels in bigha or decimals.
+

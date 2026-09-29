@@ -306,3 +306,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-29 19:53:36
 - **Summary:** Implement stoichiometric nutrient conversion into standard fertilizer bags.
 
+## Commit 77: feat: scale fertilizer quantity based on farm area and measurement unit
+- **Timestamp:** 2026-09-30 02:13:12
+- **Summary:** Apply area scaling factors for custom farmer land parcels in bigha or decimals.
+
