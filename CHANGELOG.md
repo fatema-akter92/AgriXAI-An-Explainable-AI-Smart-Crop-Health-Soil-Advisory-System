@@ -318,3 +318,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-30 16:04:58
 - **Summary:** Provide immediate cultural control steps (draining standing water, halting urea).
 
+## Commit 80: feat: compile approved chemical fungicide/bactericide application guidelines
+- **Timestamp:** 2026-09-30 23:00:51
+- **Summary:** List authorized active ingredients (Tricyclazole, Azoxystrobin, Copper Oxychloride).
+

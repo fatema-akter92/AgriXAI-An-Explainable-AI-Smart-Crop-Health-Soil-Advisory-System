@@ -239,3 +239,6 @@ Detail fertilizer split timings (Basal, 1st Top Dressing, 2nd Top Dressing).
 ### [2026-09-30 16:04:58] #079 - feat: compile immediate emergency actions for active disease outbreaks
 Provide immediate cultural control steps (draining standing water, halting urea).
 
+### [2026-09-30 23:00:51] #080 - feat: compile approved chemical fungicide/bactericide application guidelines
+List authorized active ingredients (Tricyclazole, Azoxystrobin, Copper Oxychloride).
+
