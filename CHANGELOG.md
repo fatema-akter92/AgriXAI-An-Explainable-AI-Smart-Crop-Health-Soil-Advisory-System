@@ -310,3 +310,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-09-30 02:13:12
 - **Summary:** Apply area scaling factors for custom farmer land parcels in bigha or decimals.
 
+## Commit 78: feat: formulate split application schedule for vegetative, tillering, and panicle stages
+- **Timestamp:** 2026-09-30 09:09:05
+- **Summary:** Detail fertilizer split timings (Basal, 1st Top Dressing, 2nd Top Dressing).
+

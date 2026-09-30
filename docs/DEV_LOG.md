@@ -233,3 +233,6 @@ Implement stoichiometric nutrient conversion into standard fertilizer bags.
 ### [2026-09-30 02:13:12] #077 - feat: scale fertilizer quantity based on farm area and measurement unit
 Apply area scaling factors for custom farmer land parcels in bigha or decimals.
 
+### [2026-09-30 09:09:05] #078 - feat: formulate split application schedule for vegetative, tillering, and panicle stages
+Detail fertilizer split timings (Basal, 1st Top Dressing, 2nd Top Dressing).
+
