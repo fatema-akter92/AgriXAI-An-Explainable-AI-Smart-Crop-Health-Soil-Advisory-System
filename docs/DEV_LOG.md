@@ -242,3 +242,6 @@ Provide immediate cultural control steps (draining standing water, halting urea)
 ### [2026-09-30 23:00:51] #080 - feat: compile approved chemical fungicide/bactericide application guidelines
 List authorized active ingredients (Tricyclazole, Azoxystrobin, Copper Oxychloride).
 
+### [2026-10-01 05:56:44] #081 - feat: compile eco-friendly organic and IPM treatments (Neem, Trichoderma, ash)
+Include biological controls, organic leaf extracts, and bio-fertilizer recipes.
+
