@@ -326,3 +326,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-10-01 05:56:44
 - **Summary:** Include biological controls, organic leaf extracts, and bio-fertilizer recipes.
 
+## Commit 82: feat: compile preventive agronomic practices and resistant seed varieties
+- **Timestamp:** 2026-10-01 12:52:37
+- **Summary:** Recommend BRRI / BJRI resistant cultivars and certified clean seed practices.
+

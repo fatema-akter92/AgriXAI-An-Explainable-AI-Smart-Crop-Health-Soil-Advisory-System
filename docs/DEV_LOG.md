@@ -245,3 +245,6 @@ List authorized active ingredients (Tricyclazole, Azoxystrobin, Copper Oxychlori
 ### [2026-10-01 05:56:44] #081 - feat: compile eco-friendly organic and IPM treatments (Neem, Trichoderma, ash)
 Include biological controls, organic leaf extracts, and bio-fertilizer recipes.
 
+### [2026-10-01 12:52:37] #082 - feat: compile preventive agronomic practices and resistant seed varieties
+Recommend BRRI / BJRI resistant cultivars and certified clean seed practices.
+
