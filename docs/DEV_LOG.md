@@ -251,3 +251,6 @@ Recommend BRRI / BJRI resistant cultivars and certified clean seed practices.
 ### [2026-10-01 19:48:30] #083 - feat: design responsive web interface with agricultural emerald color palette
 Build modern CSS styling using CSS variables, cards, and smooth transitions.
 
+### [2026-10-02 02:08:06] #084 - feat: implement leaf drag-and-drop file upload zone with instant preview
+Add dropzone event listeners with FileReader API image preview.
+

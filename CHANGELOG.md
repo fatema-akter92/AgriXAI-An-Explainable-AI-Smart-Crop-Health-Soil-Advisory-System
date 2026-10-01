@@ -334,3 +334,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-10-01 19:48:30
 - **Summary:** Build modern CSS styling using CSS variables, cards, and smooth transitions.
 
+## Commit 84: feat: implement leaf drag-and-drop file upload zone with instant preview
+- **Timestamp:** 2026-10-02 02:08:06
+- **Summary:** Add dropzone event listeners with FileReader API image preview.
+
