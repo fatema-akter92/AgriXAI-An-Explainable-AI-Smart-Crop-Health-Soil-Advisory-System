@@ -1,0 +1,945 @@
+/* 
+ * AgriXAI - Smart Crop Health & Soil Advisory System
+ * Clean White & Soft Green Modern Agricultural Theme
+ */
+
+:root {
+  --bg-body: #f8faf8;
+  --bg-card: #ffffff;
+  --green-primary: #2e7d32;
+  --green-hover: #1b5e20;
+  --green-light: #43a047;
+  --green-soft: #e8f5e9;
+  --green-subtle: #f1f8f3;
+  --green-border: #c8e6c9;
+  --green-accent: #81c784;
+  --amber-warning: #f59e0b;
+  --red-danger: #ef4444;
+  --text-primary: #1f2937;
+  --text-secondary: #4b5563;
+  --text-muted: #6b7280;
+  --border-light: #e5e7eb;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 14px rgba(46, 125, 50, 0.08);
+  --shadow-lg: 0 10px 25px rgba(46, 125, 50, 0.12);
+  --font-main: 'Hind Siliguri', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-body);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.container {
+  width: 92%;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+/* Header & Navbar */
+.site-navbar {
+  background: #ffffff;
+  border-bottom: 1px solid var(--green-border);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.navbar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+}
+
+.brand-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.brand-logo-circle {
+  width: 44px;
+  height: 44px;
+  background: var(--green-soft);
+  color: var(--green-primary);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border: 1px solid var(--green-border);
+}
+
+.brand-text-box h1 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--green-primary);
+  letter-spacing: -0.5px;
+}
+
+.brand-text-box p {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.nav-right-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-lang-toggle {
+  background: var(--green-soft);
+  color: var(--green-primary);
+  border: 1px solid var(--green-border);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-lang-toggle:hover {
+  background: var(--green-primary);
+  color: #fff;
+}
+
+.nav-link-btn {
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: color 0.2s;
+}
+
+.nav-link-btn:hover {
+  color: var(--green-primary);
+}
+
+/* Hero Banner with Realistic Agriculture Field Visual */
+.hero-banner-section {
+  position: relative;
+  background: linear-gradient(rgba(255, 255, 255, 0.88), rgba(241, 248, 243, 0.94)),
+              url('/static/images/assets/hero_field.jpg') center/cover no-repeat;
+  border-bottom: 1px solid var(--green-border);
+  padding: 50px 0 45px 0;
+}
+
+.hero-content-wrapper {
+  max-width: 100%;
+}
+
+.hero-two-col-grid {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  gap: 30px !important;
+  flex-wrap: wrap;
+}
+
+.hero-left-content {
+  flex: 1 1 580px;
+  min-width: 0;
+}
+
+@media (max-width: 920px) {
+  .hero-two-col-grid {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+}
+
+.hero-organic-image-card {
+  background: #ffffff !important;
+  border: 1.5px solid var(--green-border) !important;
+  border-radius: 18px !important;
+  box-shadow: 0 6px 20px rgba(46, 125, 50, 0.12) !important;
+  min-width: 310px !important;
+  max-width: 370px !important;
+  flex-shrink: 0 !important;
+  overflow: hidden !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-organic-image-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(46, 125, 50, 0.18) !important;
+}
+
+.hero-academic-white-card {
+  background: #ffffff !important;
+  border: 1.5px solid var(--green-border) !important;
+  padding: 20px 24px !important;
+  border-radius: 16px !important;
+  box-shadow: var(--shadow-md) !important;
+  text-align: left !important;
+  min-width: 310px !important;
+  max-width: 360px !important;
+  flex-shrink: 0 !important;
+}
+
+.hero-academic-white-card h4 {
+  color: var(--green-primary) !important;
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  margin-bottom: 10px !important;
+}
+
+.hero-academic-white-card p {
+  font-size: 0.86rem !important;
+  color: var(--text-secondary) !important;
+  margin-bottom: 5px !important;
+}
+
+.hero-pill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  border: 1px solid var(--green-border);
+  color: var(--green-primary);
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+  box-shadow: var(--shadow-sm);
+}
+
+.hero-heading {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #1b4332;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+
+.hero-subtext {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  margin-bottom: 22px;
+}
+
+.hero-badges-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero-feature-chip {
+  background: #ffffff;
+  border: 1px solid var(--green-border);
+  padding: 8px 14px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--green-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Main Dashboard Layout */
+.main-content-layout {
+  padding: 35px 0 60px 0;
+}
+
+.dashboard-grid-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 920px) {
+  .dashboard-grid-two-col {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* White Clean Cards with Soft Green Touches */
+.white-clean-card {
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid var(--green-border);
+  padding: 24px;
+  box-shadow: var(--shadow-md);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.white-clean-card:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+.card-title-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--green-subtle);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+}
+
+.card-title-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--green-primary);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.card-step-badge {
+  background: var(--green-soft);
+  color: var(--green-primary);
+  border: 1px solid var(--green-border);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+/* Crop Switcher Cards */
+.crop-select-cards-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.crop-card-button {
+  background: #ffffff;
+  border: 2px solid var(--green-border);
+  border-radius: 14px;
+  padding: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.2s;
+  text-align: left;
+}
+
+.crop-card-button:hover {
+  background: var(--green-subtle);
+  border-color: var(--green-light);
+}
+
+.crop-card-button.active {
+  background: var(--green-soft);
+  border-color: var(--green-primary);
+  box-shadow: 0 4px 10px rgba(46, 125, 50, 0.15);
+}
+
+.crop-card-thumb {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid var(--green-border);
+}
+
+.crop-card-info h4 {
+  font-size: 1rem;
+  color: var(--green-primary);
+  font-weight: 700;
+}
+
+.crop-card-info p {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* Big Image Upload Dropzone */
+.leaf-upload-zone {
+  border: 2px dashed var(--green-accent);
+  background: var(--green-subtle);
+  border-radius: 16px;
+  padding: 30px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.leaf-upload-zone:hover, .leaf-upload-zone.dragover {
+  background: var(--green-soft);
+  border-color: var(--green-primary);
+}
+
+.upload-icon-graphic {
+  font-size: 2.8rem;
+  color: var(--green-primary);
+  margin-bottom: 8px;
+}
+
+.upload-title-text {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--green-primary);
+  margin-bottom: 4px;
+}
+
+.upload-subtitle-text {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.btn-upload-browse {
+  background: #ffffff;
+  border: 1px solid var(--green-primary);
+  color: var(--green-primary);
+  padding: 7px 18px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s;
+}
+
+.btn-upload-browse:hover {
+  background: var(--green-primary);
+  color: #ffffff;
+}
+
+/* Image Preview Container */
+.uploaded-preview-box {
+  display: none;
+  position: relative;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 8px;
+  border: 1px solid var(--green-border);
+  margin-top: 10px;
+}
+
+.uploaded-preview-box img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: contain;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.btn-remove-leaf {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: rgba(239, 68, 68, 0.9);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Demo Samples Quick-Select Carousel */
+.demo-section-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.samples-scroller-track {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  margin-bottom: 18px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--green-accent) #f1f5f9;
+}
+
+.sample-photo-chip {
+  flex: 0 0 110px;
+  background: #ffffff;
+  border: 2px solid var(--border-light);
+  border-radius: 12px;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.sample-photo-chip:hover {
+  border-color: var(--green-light);
+  transform: translateY(-2px);
+}
+
+.sample-photo-chip.active {
+  border-color: var(--green-primary);
+  background: var(--green-soft);
+  box-shadow: 0 0 0 2px var(--green-accent);
+}
+
+.sample-photo-chip img {
+  width: 100%;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+
+.sample-photo-chip span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: block;
+  line-height: 1.2;
+  color: var(--text-primary);
+}
+
+/* Soil Sliders & Controls */
+.soil-inputs-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.soil-param-box {
+  background: var(--green-subtle);
+  border: 1px solid var(--green-border);
+  padding: 12px 14px;
+  border-radius: 12px;
+}
+
+.param-header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.param-header-flex label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--green-primary);
+}
+
+.param-badge-val {
+  background: #ffffff;
+  color: var(--green-primary);
+  border: 1px solid var(--green-border);
+  font-size: 0.82rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.custom-range-slider {
+  width: 100%;
+  accent-color: var(--green-primary);
+  cursor: pointer;
+}
+
+.param-subtext-bench {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.field-control-full {
+  margin-bottom: 16px;
+}
+
+.field-control-full label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
+.input-select-styled, .input-text-styled {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--green-border);
+  background: #ffffff;
+  font-size: 0.92rem;
+  color: var(--text-primary);
+  outline: none;
+  transition: border 0.2s;
+}
+
+.input-select-styled:focus, .input-text-styled:focus {
+  border-color: var(--green-primary);
+  box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.12);
+}
+
+.land-inputs-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* Primary Analyze Button */
+.btn-analyze-submit {
+  width: 100%;
+  background: var(--green-primary);
+  color: #ffffff;
+  border: none;
+  border-radius: 14px;
+  padding: 15px;
+  font-size: 1.1rem;
+  font-weight: 800;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 6px 18px rgba(46, 125, 50, 0.25);
+  transition: all 0.25s;
+}
+
+.btn-analyze-submit:hover {
+  background: var(--green-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(46, 125, 50, 0.32);
+}
+
+/* Spinner */
+.spinner-loading-state {
+  display: none;
+  text-align: center;
+  padding: 35px 20px;
+}
+
+.loading-circle {
+  width: 48px;
+  height: 48px;
+  border: 4px solid var(--green-soft);
+  border-top-color: var(--green-primary);
+  border-radius: 50%;
+  animation: rotateSpin 0.8s linear infinite;
+  margin: 0 auto 12px auto;
+}
+
+@keyframes rotateSpin {
+  to { transform: rotate(360deg); }
+}
+
+/* Results Display Section */
+#diagnostic-results-view {
+  display: none;
+  animation: fadeInUp 0.4s ease;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.results-summary-card {
+  background: #ffffff;
+  border-left: 6px solid var(--green-primary);
+  border-radius: 14px;
+  padding: 20px 24px;
+  margin-bottom: 25px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.summary-heading-box h2 {
+  font-size: 1.6rem;
+  color: var(--green-primary);
+  font-weight: 800;
+}
+
+.summary-heading-box p {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+}
+
+.summary-badges-box {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.status-badge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.badge-green { background: var(--green-soft); color: var(--green-primary); }
+.badge-danger { background: #fee2e2; color: #b91c1c; }
+.badge-warning { background: #fef3c7; color: #b45309; }
+
+/* Grad-CAM Viewer Grid */
+.gradcam-three-col-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 820px) {
+  .gradcam-three-col-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gradcam-visual-item {
+  background: var(--green-subtle);
+  border: 1px solid var(--green-border);
+  border-radius: 14px;
+  padding: 12px;
+  text-align: center;
+}
+
+.gradcam-visual-item h5 {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--green-primary);
+  margin-bottom: 8px;
+}
+
+.gradcam-visual-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid var(--green-border);
+}
+
+.gradcam-visual-item p {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 6px;
+}
+
+.xai-callout-white {
+  background: var(--green-soft);
+  border: 1px solid var(--green-border);
+  border-radius: 14px;
+  padding: 16px 20px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.xai-callout-white .icon-bulb {
+  font-size: 1.8rem;
+}
+
+.xai-callout-white h4 {
+  font-size: 1rem;
+  color: var(--green-primary);
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.xai-callout-white p {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+}
+
+/* Soil Scorecard */
+.soil-score-gauge-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  padding: 16px;
+  background: var(--green-subtle);
+  border: 1px solid var(--green-border);
+  border-radius: 14px;
+}
+
+.soil-score-circle-badge {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-shrink: 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.soil-score-circle-badge .num-val {
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.soil-score-circle-badge .max-val {
+  font-size: 0.72rem;
+  opacity: 0.9;
+}
+
+/* Prescription Table */
+.rx-table-styled {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  margin: 15px 0 20px 0;
+}
+
+.rx-table-styled th {
+  background: var(--green-primary);
+  color: #ffffff;
+  padding: 12px 14px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.rx-table-styled td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.rx-table-styled tr:hover {
+  background: var(--green-subtle);
+}
+
+.dose-highlight {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--green-primary);
+}
+
+/* Advisory Action Cards */
+.advisory-cards-quad {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .advisory-cards-quad {
+    grid-template-columns: 1fr;
+  }
+}
+
+.adv-action-card {
+  background: #ffffff;
+  border: 1px solid var(--border-light);
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: var(--shadow-sm);
+}
+
+.adv-action-card.immediate { border-top: 4px solid var(--amber-warning); }
+.adv-action-card.chemical { border-top: 4px solid var(--red-danger); }
+.adv-action-card.organic { border-top: 4px solid var(--green-light); }
+.adv-action-card.preventive { border-top: 4px solid var(--green-primary); }
+
+.adv-action-card h4 {
+  font-size: 0.95rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.adv-action-card.immediate h4 { color: #d97706; }
+.adv-action-card.chemical h4 { color: #dc2626; }
+.adv-action-card.organic h4 { color: var(--green-primary); }
+.adv-action-card.preventive h4 { color: #1b5e20; }
+
+.adv-action-card p {
+  font-size: 0.86rem;
+  color: var(--text-primary);
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+.btn-print-white {
+  background: #ffffff;
+  border: 2px solid var(--green-primary);
+  color: var(--green-primary);
+  padding: 10px 22px;
+  border-radius: 12px;
+  font-weight: 800;
+  font-size: 0.92rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s;
+}
+
+.btn-print-white:hover {
+  background: var(--green-primary);
+  color: #ffffff;
+}
+
+/* Footer */
+.site-footer-white {
+  background: #ffffff;
+  border-top: none;
+  padding: 40px 0 50px 0;
+  margin-top: 30px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+@media print {
+  .site-navbar, .hero-banner-section, .dashboard-grid-two-col, .site-footer-white, .btn-print-white, .samples-scroller-track {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+  }
+  #diagnostic-results-view {
+    display: block !important;
+  }
+}
