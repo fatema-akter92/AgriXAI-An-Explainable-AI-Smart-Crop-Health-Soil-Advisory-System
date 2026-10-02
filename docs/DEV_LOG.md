@@ -257,3 +257,6 @@ Add dropzone event listeners with FileReader API image preview.
 ### [2026-10-02 09:03:59] #085 - feat: add interactive sliders for soil test parameters (N, P, K, pH)
 Build real-time slider input widgets with synchronized value badges.
 
+### [2026-10-02 15:59:52] #086 - feat: display real-time benchmark indicator hints beneath soil sliders
+Display dynamic deficiency vs optimum benchmark thresholds below sliders.
+
