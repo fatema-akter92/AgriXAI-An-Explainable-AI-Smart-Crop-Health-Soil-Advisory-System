@@ -254,3 +254,6 @@ Build modern CSS styling using CSS variables, cards, and smooth transitions.
 ### [2026-10-02 02:08:06] #084 - feat: implement leaf drag-and-drop file upload zone with instant preview
 Add dropzone event listeners with FileReader API image preview.
 
+### [2026-10-02 09:03:59] #085 - feat: add interactive sliders for soil test parameters (N, P, K, pH)
+Build real-time slider input widgets with synchronized value badges.
+

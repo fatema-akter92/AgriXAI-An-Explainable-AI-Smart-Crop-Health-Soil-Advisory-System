@@ -338,3 +338,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-10-02 02:08:06
 - **Summary:** Add dropzone event listeners with FileReader API image preview.
 
+## Commit 85: feat: add interactive sliders for soil test parameters (N, P, K, pH)
+- **Timestamp:** 2026-10-02 09:03:59
+- **Summary:** Build real-time slider input widgets with synchronized value badges.
+
