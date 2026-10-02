@@ -260,3 +260,6 @@ Build real-time slider input widgets with synchronized value badges.
 ### [2026-10-02 15:59:52] #086 - feat: display real-time benchmark indicator hints beneath soil sliders
 Display dynamic deficiency vs optimum benchmark thresholds below sliders.
 
+### [2026-10-02 22:55:45] #087 - feat: integrate crop switcher buttons for rice and jute
+Provide intuitive one-click toggle switching between Rice and Jute modes.
+

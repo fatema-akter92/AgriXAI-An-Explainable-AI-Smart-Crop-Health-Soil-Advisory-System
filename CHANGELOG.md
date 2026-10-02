@@ -346,3 +346,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-10-02 15:59:52
 - **Summary:** Display dynamic deficiency vs optimum benchmark thresholds below sliders.
 
+## Commit 87: feat: integrate crop switcher buttons for rice and jute
+- **Timestamp:** 2026-10-02 22:55:45
+- **Summary:** Provide intuitive one-click toggle switching between Rice and Jute modes.
+
