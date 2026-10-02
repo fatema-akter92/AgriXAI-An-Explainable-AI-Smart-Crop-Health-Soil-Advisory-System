@@ -263,3 +263,6 @@ Display dynamic deficiency vs optimum benchmark thresholds below sliders.
 ### [2026-10-02 22:55:45] #087 - feat: integrate crop switcher buttons for rice and jute
 Provide intuitive one-click toggle switching between Rice and Jute modes.
 
+### [2026-10-03 05:51:38] #088 - feat: implement sample photo carousel for quick demo evaluation
+Allow users to click pre-loaded reference leaves without needing camera upload.
+

@@ -350,3 +350,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-10-02 22:55:45
 - **Summary:** Provide intuitive one-click toggle switching between Rice and Jute modes.
 
+## Commit 88: feat: implement sample photo carousel for quick demo evaluation
+- **Timestamp:** 2026-10-03 05:51:38
+- **Summary:** Allow users to click pre-loaded reference leaves without needing camera upload.
+
