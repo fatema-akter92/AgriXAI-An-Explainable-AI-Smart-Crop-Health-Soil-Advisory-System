@@ -362,3 +362,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-10-03 19:43:24
 - **Summary:** Format fertilizer dosage table and add browser print stylesheet.
 
+## Commit 91: feat: add 4-stage smart farming workflow section
+- **Timestamp:** 2026-10-04 02:03:00
+- **Summary:** Illustrate 4-step precision agriculture process from leaf upload to harvest.
+

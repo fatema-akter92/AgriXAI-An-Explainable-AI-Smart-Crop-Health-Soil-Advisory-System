@@ -272,3 +272,6 @@ Present original leaf, heatmap, and overlay images side-by-side.
 ### [2026-10-03 19:43:24] #090 - feat: design balanced fertilizer prescription table with print-friendly layout
 Format fertilizer dosage table and add browser print stylesheet.
 
+### [2026-10-04 02:03:00] #091 - feat: add 4-stage smart farming workflow section
+Illustrate 4-step precision agriculture process from leaf upload to harvest.
+
