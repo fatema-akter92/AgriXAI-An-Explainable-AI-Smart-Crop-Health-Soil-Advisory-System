@@ -266,3 +266,6 @@ Provide intuitive one-click toggle switching between Rice and Jute modes.
 ### [2026-10-03 05:51:38] #088 - feat: implement sample photo carousel for quick demo evaluation
 Allow users to click pre-loaded reference leaves without needing camera upload.
 
+### [2026-10-03 12:47:31] #089 - feat: design diagnostic results studio with triple-panel Grad-CAM visualization
+Present original leaf, heatmap, and overlay images side-by-side.
+

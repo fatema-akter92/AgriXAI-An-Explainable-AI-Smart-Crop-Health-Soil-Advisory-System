@@ -354,3 +354,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-10-03 05:51:38
 - **Summary:** Allow users to click pre-loaded reference leaves without needing camera upload.
 
+## Commit 89: feat: design diagnostic results studio with triple-panel Grad-CAM visualization
+- **Timestamp:** 2026-10-03 12:47:31
+- **Summary:** Present original leaf, heatmap, and overlay images side-by-side.
+
