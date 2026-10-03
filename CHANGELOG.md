@@ -358,3 +358,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-10-03 12:47:31
 - **Summary:** Present original leaf, heatmap, and overlay images side-by-side.
 
+## Commit 90: feat: design balanced fertilizer prescription table with print-friendly layout
+- **Timestamp:** 2026-10-03 19:43:24
+- **Summary:** Format fertilizer dosage table and add browser print stylesheet.
+

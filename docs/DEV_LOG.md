@@ -269,3 +269,6 @@ Allow users to click pre-loaded reference leaves without needing camera upload.
 ### [2026-10-03 12:47:31] #089 - feat: design diagnostic results studio with triple-panel Grad-CAM visualization
 Present original leaf, heatmap, and overlay images side-by-side.
 
+### [2026-10-03 19:43:24] #090 - feat: design balanced fertilizer prescription table with print-friendly layout
+Format fertilizer dosage table and add browser print stylesheet.
+
