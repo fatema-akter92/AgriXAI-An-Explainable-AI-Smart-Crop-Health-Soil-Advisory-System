@@ -366,3 +366,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-10-04 02:03:00
 - **Summary:** Illustrate 4-step precision agriculture process from leaf upload to harvest.
 
+## Commit 92: feat: add 4 agro-ecological zone (AEZ) regional impact and soil risk cards
+- **Timestamp:** 2026-10-04 08:58:53
+- **Summary:** Detail Barind Tract, Haor Basin, Brahmaputra Floodplain, and Coastal Saline zones.
+
