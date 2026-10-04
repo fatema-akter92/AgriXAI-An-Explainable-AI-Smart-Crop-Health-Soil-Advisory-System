@@ -284,3 +284,6 @@ Add emergency helpline 16123, institutional links, and academic attribution.
 ### [2026-10-04 22:50:39] #094 - feat: create comprehensive research methodology page (about.html)
 Document research mathematical formulation, confusion matrix, and citations.
 
+### [2026-10-05 05:46:32] #095 - feat: implement complete client-side bilingual translation engine (BN/EN)
+Add UI_TRANSLATIONS dictionary and instant language toggle without page reload.
+

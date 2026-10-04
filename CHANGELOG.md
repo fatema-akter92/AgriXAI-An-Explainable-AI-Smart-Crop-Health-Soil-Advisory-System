@@ -378,3 +378,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-10-04 22:50:39
 - **Summary:** Document research mathematical formulation, confusion matrix, and citations.
 
+## Commit 95: feat: implement complete client-side bilingual translation engine (BN/EN)
+- **Timestamp:** 2026-10-05 05:46:32
+- **Summary:** Add UI_TRANSLATIONS dictionary and instant language toggle without page reload.
+
