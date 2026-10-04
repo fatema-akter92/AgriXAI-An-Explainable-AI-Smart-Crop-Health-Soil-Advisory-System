@@ -374,3 +374,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-10-04 15:54:46
 - **Summary:** Add emergency helpline 16123, institutional links, and academic attribution.
 
+## Commit 94: feat: create comprehensive research methodology page (about.html)
+- **Timestamp:** 2026-10-04 22:50:39
+- **Summary:** Document research mathematical formulation, confusion matrix, and citations.
+

@@ -281,3 +281,6 @@ Detail Barind Tract, Haor Basin, Brahmaputra Floodplain, and Coastal Saline zone
 ### [2026-10-04 15:54:46] #093 - feat: design call-to-action banner and comprehensive 4-column footer
 Add emergency helpline 16123, institutional links, and academic attribution.
 
+### [2026-10-04 22:50:39] #094 - feat: create comprehensive research methodology page (about.html)
+Document research mathematical formulation, confusion matrix, and citations.
+
