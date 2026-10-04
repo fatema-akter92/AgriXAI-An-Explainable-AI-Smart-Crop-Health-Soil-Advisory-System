@@ -370,3 +370,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-10-04 08:58:53
 - **Summary:** Detail Barind Tract, Haor Basin, Brahmaputra Floodplain, and Coastal Saline zones.
 
+## Commit 93: feat: design call-to-action banner and comprehensive 4-column footer
+- **Timestamp:** 2026-10-04 15:54:46
+- **Summary:** Add emergency helpline 16123, institutional links, and academic attribution.
+

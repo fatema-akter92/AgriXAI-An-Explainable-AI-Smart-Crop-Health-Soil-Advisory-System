@@ -278,3 +278,6 @@ Illustrate 4-step precision agriculture process from leaf upload to harvest.
 ### [2026-10-04 08:58:53] #092 - feat: add 4 agro-ecological zone (AEZ) regional impact and soil risk cards
 Detail Barind Tract, Haor Basin, Brahmaputra Floodplain, and Coastal Saline zones.
 
+### [2026-10-04 15:54:46] #093 - feat: design call-to-action banner and comprehensive 4-column footer
+Add emergency helpline 16123, institutional links, and academic attribution.
+
