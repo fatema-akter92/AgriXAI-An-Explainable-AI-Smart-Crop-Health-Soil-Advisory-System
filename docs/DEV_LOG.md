@@ -290,3 +290,6 @@ Add UI_TRANSLATIONS dictionary and instant language toggle without page reload.
 ### [2026-10-05 12:42:25] #096 - feat: integrate dual-language API responses and localStorage persistence
 Store language preference in localStorage and localize backend advisories.
 
+### [2026-10-05 19:38:18] #097 - feat: configure WhiteNoise middleware for production static file serving
+Add WhiteNoiseMiddleware to settings.py for standalone static asset serving.
+

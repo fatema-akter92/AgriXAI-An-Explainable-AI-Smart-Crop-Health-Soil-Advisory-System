@@ -386,3 +386,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-10-05 12:42:25
 - **Summary:** Store language preference in localStorage and localize backend advisories.
 
+## Commit 97: feat: configure WhiteNoise middleware for production static file serving
+- **Timestamp:** 2026-10-05 19:38:18
+- **Summary:** Add WhiteNoiseMiddleware to settings.py for standalone static asset serving.
+
