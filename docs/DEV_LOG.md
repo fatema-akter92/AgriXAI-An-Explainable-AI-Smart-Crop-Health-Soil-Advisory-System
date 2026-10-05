@@ -287,3 +287,6 @@ Document research mathematical formulation, confusion matrix, and citations.
 ### [2026-10-05 05:46:32] #095 - feat: implement complete client-side bilingual translation engine (BN/EN)
 Add UI_TRANSLATIONS dictionary and instant language toggle without page reload.
 
+### [2026-10-05 12:42:25] #096 - feat: integrate dual-language API responses and localStorage persistence
+Store language preference in localStorage and localize backend advisories.
+

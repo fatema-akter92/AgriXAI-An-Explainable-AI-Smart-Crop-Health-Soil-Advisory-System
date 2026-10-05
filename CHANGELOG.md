@@ -382,3 +382,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-10-05 05:46:32
 - **Summary:** Add UI_TRANSLATIONS dictionary and instant language toggle without page reload.
 
+## Commit 96: feat: integrate dual-language API responses and localStorage persistence
+- **Timestamp:** 2026-10-05 12:42:25
+- **Summary:** Store language preference in localStorage and localize backend advisories.
+
