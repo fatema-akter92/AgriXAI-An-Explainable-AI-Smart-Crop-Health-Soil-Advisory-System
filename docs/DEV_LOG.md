@@ -293,3 +293,6 @@ Store language preference in localStorage and localize backend advisories.
 ### [2026-10-05 19:38:18] #097 - feat: configure WhiteNoise middleware for production static file serving
 Add WhiteNoiseMiddleware to settings.py for standalone static asset serving.
 
+### [2026-10-06 01:57:54] #098 - feat: add gunicorn server and production deployment configurations
+Update requirements.txt with gunicorn and whitenoise for cloud deployments.
+

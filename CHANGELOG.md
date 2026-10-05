@@ -390,3 +390,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-10-05 19:38:18
 - **Summary:** Add WhiteNoiseMiddleware to settings.py for standalone static asset serving.
 
+## Commit 98: feat: add gunicorn server and production deployment configurations
+- **Timestamp:** 2026-10-06 01:57:54
+- **Summary:** Update requirements.txt with gunicorn and whitenoise for cloud deployments.
+
