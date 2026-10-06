@@ -48,8 +48,12 @@ Visit: ****
 
 <!-- Frontend & Deployment -->
 [![Frontend](https://img.shields.io/badge/UI-HTML5%20%7C%20CSS3%20%7C%20ES6%2B%20JS-E34F26?style=flat&logo=html5&logoColor=white)](#)
-[![Language Support](https://img.shields.io/badge/Language-Bilingual%20(বাংলা%20%2F%20English)-2563eb?style=flat)](#)
-[![Production Server](https://img.shields.io/badge/WSGI-Gunicorn%20%7C%20WhiteNoise-499848?style=flat&logo=gunicorn&logoColor=white)](#)
 [![Deployment](https://img.shields.io/badge/Deployment-Render%20Cloud-46E3B7?style=flat&logo=render&logoColor=black)](https://render.com)
+
+
+--------
+
+## 🌾AGRIXAI RESEARCH INITIATIVE • EMPOWERING BANGLADESHI FARMERS THROUGH TRUSTWORTHY AI (2026)
+- Researcher: Fatema Akter • AgriAI - making farmers life easy
 
 
