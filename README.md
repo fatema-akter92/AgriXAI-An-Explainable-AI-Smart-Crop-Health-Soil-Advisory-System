@@ -2,9 +2,11 @@
 
 An intelligent, explainable web platform built with **Python & Django** for detecting leaf diseases in **Rice (ধান)** and **Jute (পাট)** with visual **Grad-CAM** explanations and soil-nutrient-aware fertilizer prescriptions based on **BARC (Bangladesh Agricultural Research Council)** standards.
 
----
+-------------
 
-## 🌟 Key Features
+-------------
+
+##  Key Features
 
 1. **Leaf Photo Upload:** Prominent Drag-and-Drop, file browsing, and camera snap interface with instant high-resolution preview.
 2. **Demo Leaf Gallery:** 1-Click testing for Rice and Jute diseases and healthy leaves without needing to search for images.
@@ -18,6 +20,8 @@ An intelligent, explainable web platform built with **Python & Django** for dete
 10. **Bilingual Support:** Native Bengali (বাংলা) by default, with an instant English toggle.
 
 ---
+
+
 
 
 
