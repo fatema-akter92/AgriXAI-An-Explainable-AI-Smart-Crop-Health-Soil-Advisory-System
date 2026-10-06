@@ -54,6 +54,6 @@ Visit: ****
 --------
 
 #### 🌾AGRIXAI RESEARCH INITIATIVE • EMPOWERING BANGLADESHI FARMERS THROUGH TRUSTWORTHY AI (2026)
-- Researcher: Fatema Akter • AgriAI - making farmers life easy
+##### Researcher: Fatema Akter • AgriXAI - making farmers life easy
 
 
