@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/static/css/style.css?v=2.0">
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
 
@@ -18,12 +18,12 @@
             <a href="/" class="brand-box">
                 <div class="brand-logo-circle">🌾</div>
                 <div class="brand-text-box">
-                    <h1 data-i18n="brand_title">AgriXAI • কৃষি-পরামর্শক</h1>
-                    <p data-i18n="brand_sub">স্মার্ট ফসল স্বাস্থ্য ও মৃত্তিকা পুষ্টি পরামর্শক</p>
+                    <h1>AgriXAI • কৃষি-পরামর্শক</h1>
+                    <p>স্মার্ট ফসল স্বাস্থ্য ও মৃত্তিকা পুষ্টি পরামর্শক</p>
                 </div>
             </a>
             <div class="nav-right-actions">
-                <a href="/about/" class="nav-link-btn" data-i18n="nav_about">পদ্ধতি ও প্রযুক্তি (Methodology)</a>
+                <a href="/about/" class="nav-link-btn">পদ্ধতি ও প্রযুক্তি (Methodology)</a>
                 <button type="button" class="btn-lang-toggle" id="btn-lang-toggle">English</button>
             </div>
         </div>
@@ -32,55 +32,58 @@
     <!-- Hero Banner with Realistic Agriculture Field Background -->
     <section class="hero-banner-section">
         <div class="container">
-            <div class="hero-content-wrapper hero-two-col-grid" style="display: flex; justify-content: space-between; align-items: center; gap: 30px; flex-wrap: wrap;">
-                <div class="hero-left-content" style="flex: 1 1 600px; min-width: 0;">
+            <div class="hero-content-wrapper hero-two-col-grid">
+                <div>
                     <div class="hero-pill-badge">
-                        <span data-i18n="hero_pill">🌱 স্মার্ট কৃষি প্রযুক্তি • Smart Agriculture AI Platform</span>
+                        <span>🌱 এআই প্রযুক্তি • Grad-CAM ব্যাখ্যাযোগ্যতা • BARC সুষম সার গাইড</span>
+                        <span> • Web Applicaion</span>
                     </div>
-                    <h2 class="hero-heading" data-i18n="hero_heading">
+                    <h2 class="hero-heading">
                         ধান ও পাটের পাতার রোগ সনাক্তকরণ এবং<br>মাটির পুষ্টি-সচেতন সমন্বিত কৃষক পরামর্শ
                     </h2>
-                    <p class="hero-subtext" data-i18n="hero_sub">
+                    <p class="hero-subtext">
+                        কৃত্রিম বুদ্ধিমত্তা দ্বারা পাতার ছবি বিশ্লেষণ করে তাৎক্ষণিক রোগ সনাক্ত করুন, ভিজ্যুয়াল হিটম্যাপে আক্রান্ত অংশ দেখুন এবং মাটির পুষ্টি অনুযায়ী সঠিক সার ও চিকিৎসা গ্রহণ করুন।<br>
                         An Explainable AI System for Rice and Jute Leaf Disease Detection with Soil-Nutrient-Aware Advisory for Bangladeshi Farmers.
                     </p>
                     <div class="hero-badges-row">
                         <div class="hero-feature-chip">
                             <span>🌾</span>
-                            <span data-i18n="chip_crops">২টি প্রধান ফসল: ধান ও পাট</span>
+                            <span>২টি প্রধান ফসল: ধান ও পাট</span>
                         </div>
                         <div class="hero-feature-chip">
                             <span>🔥</span>
-                            <span data-i18n="chip_gradcam">Grad-CAM ব্যাখ্যাযোগ্য এআই</span>
+                            <span>Grad-CAM ব্যাখ্যাযোগ্য এআই</span>
                         </div>
                         <div class="hero-feature-chip">
                             <span>🧪</span>
-                            <span data-i18n="chip_barc">BARC মানদণ্ডে সুষম সার</span>
+                            <span>BARC মানদণ্ডে সুষম সার</span>
                         </div>
                         <div class="hero-feature-chip">
                             <span>📊</span>
-                            <span data-i18n="chip_soil_score">০–১০০ মৃত্তিকা স্বাস্থ্য স্কোর</span>
+                            <span>০–১০০ মৃত্তিকা স্বাস্থ্য স্কোর</span>
                         </div>
                     </div>
                 </div>
 
+                <!-- Academic Evaluation Card -->
                 <!-- Organic Farming Real Showcase Photo -->
-                <div class="hero-organic-image-card" style="background: #ffffff; border: 1.5px solid #c8e6c9; border-radius: 18px; box-shadow: 0 6px 20px rgba(46, 125, 50, 0.12); min-width: 310px; max-width: 370px; flex-shrink: 0; overflow: hidden;">
-                    <div style="position: relative; overflow: hidden; height: 215px;">
-                        <img src="/static/images/hero_organic_farming.jpg" alt="Organic Farming & Healthy Soil" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-                        <span style="position: absolute; top: 12px; right: 12px; background: rgba(46, 125, 50, 0.9); color: #ffffff; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 20px; backdrop-filter: blur(4px);">
-                            🌿 Organic Farming
-                        </span>
-                    </div>
-                    <div style="padding: 14px 18px; background: #ffffff;">
-                        <div style="font-size: 0.95rem; font-weight: 800; color: #1b5e20; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-                            <span>🌱</span>
-                            <span data-i18n="hero_organic_title">সুষম জৈব পুষ্টি ও উর্বর মৃত্তিকা</span>
-                        </div>
-                        <p style="font-size: 0.8rem; color: #555; margin: 0; line-height: 1.4;" data-i18n="hero_organic_sub">
-                            Sustainable Organic Farming • Healthy Soil Microbiome & Balanced Nutrients
-                        </p>
-                    </div>
-                </div>
+<div class="hero-organic-image-card" style="background: #ffffff; border: 1.5px solid #c8e6c9; border-radius: 18px; box-shadow: 0 6px 20px rgba(46, 125, 50, 0.12); min-width: 310px; max-width: 390px; flex-shrink: 0; overflow: hidden;">
+    <div style="position: relative; overflow: hidden; height: 215px;">
+        <img src="/static/images/samples/main pic.jpg" alt="Organic Farming & Healthy Soil" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+        <span style="position: absolute; top: 12px; right: 12px; background: rgba(46, 125, 50, 0.9); color: #ffffff; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 20px; backdrop-filter: blur(4px);">
+            🌿 Organic Farming
+        </span>
+    </div>
+    <div style="padding: 14px 18px; background: #ffffff;">
+        <div style="font-size: 0.95rem; font-weight: 800; color: #1b5e20; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
+            <span>🌱</span>
+            <span>সুষম জৈব পুষ্টি ও উর্বর মৃত্তিকা</span>
+        </div>
+        <p style="font-size: 0.8rem; color: #555; margin: 0; line-height: 1.4;">
+            Sustainable Organic Farming • Healthy Soil Microbiome & Balanced Nutrients
+        </p>
+    </div>
+</div>
             </div>
         </div>
     </section>
@@ -95,8 +98,8 @@
                 <div class="white-clean-card">
                     <div class="card-title-bar">
                         <div class="card-title-group">
-                            <span class="card-step-badge" data-i18n="step1_num">১</span>
-                            <span data-i18n="step1_title">পাতার ছবি ও ফসল নির্বাচন (Leaf Upload)</span>
+                            <span class="card-step-badge">১</span>
+                            <span>পাতার ছবি ও ফসল নির্বাচন (Leaf Upload)</span>
                         </div>
                     </div>
 
@@ -105,15 +108,15 @@
                         <button type="button" class="crop-card-button active" data-crop="rice">
                             <img src="/static/images/assets/rice_thumb.jpg" alt="Rice Field" class="crop-card-thumb">
                             <div class="crop-card-info">
-                                <h4 data-i18n="crop_rice_title">ধান ফসল (Rice)</h4>
-                                <p data-i18n="crop_rice_sub">বোরো / আমন / আউশ ধান</p>
+                                <h4>ধান ফসল (Rice)</h4>
+                                <p>বোরো / আমন / আউশ ধান</p>
                             </div>
                         </button>
                         <button type="button" class="crop-card-button" data-crop="jute">
                             <img src="/static/images/assets/jute_thumb.jpg" alt="Jute Field" class="crop-card-thumb">
                             <div class="crop-card-info">
-                                <h4 data-i18n="crop_jute_title">পাট ফসল (Jute)</h4>
-                                <p data-i18n="crop_jute_sub">তোষা / দেশী পাট</p>
+                                <h4>পাট ফসল (Jute)</h4>
+                                <p>তোষা / দেশী পাট</p>
                             </div>
                         </button>
                     </div>
@@ -122,10 +125,10 @@
                     <div class="leaf-upload-zone" id="leaf-dropzone">
                         <div id="upload-prompt-content">
                             <div class="upload-icon-graphic">📷</div>
-                            <div class="upload-title-text" data-i18n="upload_title">আক্রান্ত পাতার ছবি এখানে আপলোড করুন</div>
-                            <div class="upload-subtitle-text" data-i18n="upload_sub">ছবি টেনে আনুন (Drag & Drop) অথবা ব্রাউজ করুন (JPG, PNG, JPEG)</div>
+                            <div class="upload-title-text">আক্রান্ত পাতার ছবি এখানে আপলোড করুন</div>
+                            <div class="upload-subtitle-text">ছবি টেনে আনুন (Drag & Drop) অথবা ব্রাউজ করুন (JPG, PNG, JPEG)</div>
                             <button type="button" class="btn-upload-browse" id="btn-browse-file">
-                                <span data-i18n="upload_btn">📁 ছবি নির্বাচন করুন</span>
+                                <span>📁 ছবি নির্বাচন করুন</span>
                             </button>
                         </div>
 
@@ -139,7 +142,7 @@
 
                     <!-- Demo Samples Carousel for 1-Click Testing -->
                     <div class="demo-section-title">
-                        <span data-i18n="demo_title">🧪 অথবা নমুনা ছবি ক্লিক করে পরীক্ষা করুন (Demo Leaves):</span>
+                        <span>🧪 অথবা নমুনা ছবি ক্লিক করে পরীক্ষা করুন (Demo Leaves):</span>
                     </div>
                     <div class="samples-scroller-track" id="samples-track">
                         <!-- Loaded by JavaScript -->
@@ -151,8 +154,8 @@
                 <div class="white-clean-card">
                     <div class="card-title-bar">
                         <div class="card-title-group">
-                            <span class="card-step-badge" data-i18n="step2_num">২</span>
-                            <span data-i18n="step2_title">মাটির পুষ্টি ও জমির তথ্য (Soil & Land Parameters)</span>
+                            <span class="card-step-badge">২</span>
+                            <span>মাটির পুষ্টি ও জমির তথ্য (Soil & Land Parameters)</span>
                         </div>
                     </div>
 
@@ -162,52 +165,52 @@
                         <!-- Nitrogen -->
                         <div class="soil-param-box">
                             <div class="param-header-flex">
-                                <label for="slider-n" data-i18n="param_n_label">নাইট্রোজেন (N)</label>
+                                <label for="slider-n">নাইট্রোজেন (N)</label>
                                 <span class="param-badge-val" id="val-badge-n">48 ppm</span>
                             </div>
                             <input type="range" class="custom-range-slider" id="slider-n" min="10" max="80" step="1" value="48">
-                            <div class="param-subtext-bench" id="bench-hint-n">
-                                <span data-i18n="bench_n_low">ঘাটতি: &lt;25</span>
-                                <span data-i18n="bench_n_opt">আদর্শ: 25-45 ppm</span>
+                            <div class="param-subtext-bench">
+                                <span>ঘাটতি: &lt;25</span>
+                                <span>আদর্শ: 25-45 ppm</span>
                             </div>
                         </div>
 
                         <!-- Phosphorus -->
                         <div class="soil-param-box">
                             <div class="param-header-flex">
-                                <label for="slider-p" data-i18n="param_p_label">ফসফরাস (P)</label>
+                                <label for="slider-p">ফসফরাস (P)</label>
                                 <span class="param-badge-val" id="val-badge-p">16 ppm</span>
                             </div>
                             <input type="range" class="custom-range-slider" id="slider-p" min="5" max="50" step="1" value="16">
-                            <div class="param-subtext-bench" id="bench-hint-p">
-                                <span data-i18n="bench_p_low">ঘাটতি: &lt;12</span>
-                                <span data-i18n="bench_p_opt">আদর্শ: 14-24 ppm</span>
+                            <div class="param-subtext-bench">
+                                <span>ঘাটতি: &lt;12</span>
+                                <span>আদর্শ: 14-24 ppm</span>
                             </div>
                         </div>
 
                         <!-- Potassium -->
                         <div class="soil-param-box">
                             <div class="param-header-flex">
-                                <label for="slider-k" data-i18n="param_k_label">পটাশিয়াম (K)</label>
+                                <label for="slider-k">পটাশিয়াম (K)</label>
                                 <span class="param-badge-val" id="val-badge-k">0.14 meq</span>
                             </div>
                             <input type="range" class="custom-range-slider" id="slider-k" min="0.06" max="0.50" step="0.01" value="0.14">
-                            <div class="param-subtext-bench" id="bench-hint-k">
-                                <span data-i18n="bench_k_low">ঘাটতি: &lt;0.15</span>
-                                <span data-i18n="bench_k_opt">আদর্শ: 0.18-0.28</span>
+                            <div class="param-subtext-bench">
+                                <span>ঘাটতি: &lt;0.15</span>
+                                <span>আদর্শ: 0.18-0.28</span>
                             </div>
                         </div>
 
                         <!-- Soil pH -->
                         <div class="soil-param-box">
                             <div class="param-header-flex">
-                                <label for="slider-ph" data-i18n="param_ph_label">মাটির পিএইচ (pH)</label>
+                                <label for="slider-ph">মাটির পিএইচ (pH)</label>
                                 <span class="param-badge-val" id="val-badge-ph">5.6</span>
                             </div>
                             <input type="range" class="custom-range-slider" id="slider-ph" min="4.5" max="8.5" step="0.1" value="5.6">
-                            <div class="param-subtext-bench" id="bench-hint-ph">
-                                <span data-i18n="bench_ph_low">অম্লীয়: &lt;5.5</span>
-                                <span data-i18n="bench_ph_opt">অনুকূল: 5.8-6.8</span>
+                            <div class="param-subtext-bench">
+                                <span>অম্লীয়: &lt;5.5</span>
+                                <span>অনুকূল: 5.8-6.8</span>
                             </div>
                         </div>
 
@@ -215,10 +218,10 @@
 
                     <!-- Previous Crop Dropdown -->
                     <div class="field-control-full">
-                        <label for="select-prev-crop" data-i18n="label_prev_crop">🌾 জমিতে পূর্বে চাষকৃত ফসল (Previous Crop):</label>
+                        <label for="select-prev-crop">🌾 জমিতে পূর্বে চাষকৃত ফসল (Previous Crop):</label>
                         <select class="input-select-styled" id="select-prev-crop">
                             {% for key, crop in previous_crops.items %}
-                            <option value="{{ key }}" data-name-bn="{{ crop.name_bn }}" data-name-en="{{ crop.name_en }}" {% if key == 'boro_rice' %}selected{% endif %}>
+                            <option value="{{ key }}" {% if key == 'boro_rice' %}selected{% endif %}>
                                 {{ crop.name_bn }}
                             </option>
                             {% endfor %}
@@ -228,23 +231,23 @@
                     <!-- Land Measurement -->
                     <div class="land-inputs-two-col field-control-full">
                         <div>
-                            <label for="input-land-amount" data-i18n="label_land_amount">জমির পরিমাণ:</label>
+                            <label for="input-land-amount">জমির পরিমাণ:</label>
                             <input type="number" class="input-text-styled" id="input-land-amount" min="0.1" max="100" step="0.1" value="1.0">
                         </div>
                         <div>
-                            <label for="select-land-unit" data-i18n="label_land_unit">পরিমাপের একক:</label>
+                            <label for="select-land-unit">পরিমাপের একক:</label>
                             <select class="input-select-styled" id="select-land-unit">
-                                <option value="bigha" selected data-i18n="unit_bigha">বিঘা (৩৩ শতাংশ / Decimal)</option>
-                                <option value="decimal" data-i18n="unit_decimal">শতক / ডেসিমাল</option>
-                                <option value="acre" data-i18n="unit_acre">একর (১০০ শতাংশ)</option>
-                                <option value="hectare" data-i18n="unit_hectare">হেক্টর</option>
+                                <option value="bigha" selected>বিঘা (৩৩ শতাংশ / Decimal)</option>
+                                <option value="decimal">শতক / ডেসিমাল</option>
+                                <option value="acre">একর (১০০ শতাংশ)</option>
+                                <option value="hectare">হেক্টর</option>
                             </select>
                         </div>
                     </div>
 
                     <!-- Submit Button -->
                     <button type="submit" class="btn-analyze-submit" id="btn-submit-main">
-                        <span data-i18n="submit_btn">🔍 রোগ সনাক্তকরণ ও পূর্ণাঙ্গ সার প্রেসক্রিপশন নিন</span>
+                        <span>🔍 রোগ সনাক্তকরণ ও পূর্ণাঙ্গ সার প্রেসক্রিপশন নিন</span>
                         <span>➔</span>
                     </button>
 
@@ -256,8 +259,8 @@
         <!-- Loading State Spinner -->
         <div class="spinner-loading-state" id="spinner-loading">
             <div class="loading-circle"></div>
-            <h3 style="color: var(--green-primary); font-weight: 800;" data-i18n="spinner_title">মডেল প্রক্রিয়াকরণ চলছে...</h3>
-            <p style="color: var(--text-muted); font-size: 0.9rem;" data-i18n="spinner_sub">MobileNetV2 কনভোলিউশন, Grad-CAM ফিচার ম্যাপ ও বিএআরসি মানদণ্ড বিশ্লেষণ হচ্ছে...</p>
+            <h3 style="color: var(--green-primary); font-weight: 800;">মডেল প্রক্রিয়াকরণ চলছে...</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">MobileNetV2 কনভোলিউশন, Grad-CAM ফিচার ম্যাপ ও বিএআরসি মানদণ্ড বিশ্লেষণ হচ্ছে...</p>
         </div>
 
         <!-- Diagnostic & Advisory Results Section -->
@@ -280,8 +283,8 @@
             <div class="white-clean-card" style="margin-bottom: 25px;">
                 <div class="card-title-bar">
                     <div class="card-title-group">
-                        <span class="card-step-badge" data-i18n="step3_num">৩</span>
-                        <span data-i18n="step3_title">Grad-CAM ব্যাখ্যাযোগ্য এআই ভিজ্যুয়ালাইজেশন (Explainable AI Studio)</span>
+                        <span class="card-step-badge">৩</span>
+                        <span>Grad-CAM ব্যাখ্যাযোগ্য এআই ভিজ্যুয়ালাইজেশন (Explainable AI Studio)</span>
                     </div>
                     <span style="font-size: 0.8rem; background: var(--green-soft); color: var(--green-primary); padding: 4px 10px; border-radius: 8px; font-weight: 700;">
                         MobileNetV2 • Conv_18 Layer
@@ -290,19 +293,19 @@
 
                 <div class="gradcam-three-col-grid">
                     <div class="gradcam-visual-item">
-                        <h5 data-i18n="gradcam_orig_title">১. আপলোডকৃত মূল পাতা (Original Leaf)</h5>
+                        <h5>১. আপলোডকৃত মূল পাতা (Original Leaf)</h5>
                         <img id="gradcam-orig-img" src="" alt="Original Leaf">
-                        <p data-i18n="gradcam_orig_desc">মডেলে ইনপুট হিসেবে প্রেরিত পাতার ছবি</p>
+                        <p>মডেলে ইনপুট হিসেবে প্রেরিত পাতার ছবি</p>
                     </div>
                     <div class="gradcam-visual-item">
-                        <h5 data-i18n="gradcam_heat_title">২. কনভোলিউশনাল হিটম্যাপ (Activation Heatmap)</h5>
+                        <h5>২. কনভোলিউশনাল হিটম্যাপ (Activation Heatmap)</h5>
                         <img id="gradcam-heat-img" src="" alt="Heatmap">
-                        <p data-i18n="gradcam_heat_desc">Jet Colormap: লাল ও হলুদ অংশ সর্বাধিক সক্রিয়</p>
+                        <p>Jet Colormap: লাল ও হলুদ অংশ সর্বাধিক সক্রিয়</p>
                     </div>
                     <div class="gradcam-visual-item">
-                        <h5 data-i18n="gradcam_over_title">৩. সমন্বিত এক্সএআই ওভারলে (Superimposed Overlay)</h5>
+                        <h5>৩. সমন্বিত এক্সএআই ওভারলে (Superimposed Overlay)</h5>
                         <img id="gradcam-overlay-img" src="" alt="Grad-CAM Overlay">
-                        <p data-i18n="gradcam_over_desc">আক্রান্ত ক্ষতের উপর ফোকাসকৃত এলাকা স্পষ্টকরণ</p>
+                        <p>আক্রান্ত ক্ষতের উপর ফোকাসকৃত এলাকা স্পষ্টকরণ</p>
                     </div>
                 </div>
 
@@ -310,19 +313,19 @@
                 <div class="xai-callout-white">
                     <div class="icon-bulb">💡</div>
                     <div>
-                        <h4 data-i18n="xai_rationale_title">এআই মডেল কেন এই সিদ্ধান্তে উপনীত হলো (XAI Decision Rationale):</h4>
+                        <h4>এআই মডেল কেন এই সিদ্ধান্তে উপনীত হলো (XAI Decision Rationale):</h4>
                         <p id="xai-explanation-para">
                             মডেলের Grad-CAM হিটম্যাপ অনুযায়ী পাতার আক্রান্ত ক্ষতের বৈশিষ্ট্য এবং টিস্যুর উপর ভিত্তি করে এই রোগ সনাক্তকরণ নিশ্চিত করা হয়েছে।
                         </p>
                         <p style="margin-top: 4px; font-size: 0.82rem; color: #1b5e20;">
-                            <strong data-i18n="xai_focal_label">ফোকাসকৃত আক্রান্ত অংশ:</strong> <span id="xai-focal-text">18.4%</span> <span data-i18n="xai_focal_leaf">পাতার উপরিভাগ।</span>
+                            <strong>ফোকাসকৃত আক্রান্ত অংশ:</strong> <span id="xai-focal-text">18.4%</span> পাতার উপরিভাগ।
                         </p>
                     </div>
                 </div>
 
                 <!-- Probability breakdown -->
                 <div style="background: var(--green-subtle); border: 1px solid var(--green-border); border-radius: 12px; padding: 14px;">
-                    <h5 style="font-size: 0.85rem; font-weight: 700; color: var(--green-primary); margin-bottom: 8px;" data-i18n="prob_header">
+                    <h5 style="font-size: 0.85rem; font-weight: 700; color: var(--green-primary); margin-bottom: 8px;">
                         📊 শীর্ষ পূর্বাভাস সম্ভাবনা (Predicted Probabilities):
                     </h5>
                     <div id="prob-bars-wrap"></div>
@@ -336,8 +339,8 @@
                 <div class="white-clean-card">
                     <div class="card-title-bar">
                         <div class="card-title-group">
-                            <span class="card-step-badge" data-i18n="step4_num">৪</span>
-                            <span data-i18n="step4_title">রোগ ও মাটির পুষ্টি সম্পর্ক (Disease–Soil Linking)</span>
+                            <span class="card-step-badge">৪</span>
+                            <span>রোগ ও মাটির পুষ্টি সম্পর্ক (Disease–Soil Linking)</span>
                         </div>
                     </div>
 
@@ -345,7 +348,7 @@
                         মাটি বিশ্লেষণ নিশ্চিত করছে যে পুষ্টি ভারসাম্যহীনতা এই রোগ সংক্রমণের ক্ষেত্র তৈরি করেছে।
                     </p>
 
-                    <h5 style="font-size: 0.85rem; font-weight: 700; color: #991b1b; margin-bottom: 8px;" data-i18n="risk_factors_title">
+                    <h5 style="font-size: 0.85rem; font-weight: 700; color: #991b1b; margin-bottom: 8px;">
                         চিহ্নিত পুষ্টিগত ঝুঁকির কারণসমূহ (Identified Soil Risk Factors):
                     </h5>
                     <div style="display: flex; flex-direction: column; gap: 8px;" id="link-factors-wrap">
@@ -357,15 +360,15 @@
                 <div class="white-clean-card">
                     <div class="card-title-bar">
                         <div class="card-title-group">
-                            <span class="card-step-badge" data-i18n="step5_num">৫</span>
-                            <span data-i18n="step5_title">মাটির সামগ্রিক স্বাস্থ্য স্কোর (Soil-Health Score: 0–100)</span>
+                            <span class="card-step-badge">৫</span>
+                            <span>মাটির সামগ্রিক স্বাস্থ্য স্কোর (Soil-Health Score: 0–100)</span>
                         </div>
                     </div>
 
                     <div class="soil-score-gauge-flex">
                         <div class="soil-score-circle-badge" id="soil-score-circle" style="background: var(--green-primary);">
                             <span class="num-val" id="soil-score-num">72</span>
-                            <span class="max-val" data-i18n="soil_score_max">/ ১০০</span>
+                            <span class="max-val">/ ১০০</span>
                         </div>
                         <div>
                             <h4 id="soil-grade-title" style="font-size: 1.15rem; font-weight: 800; color: var(--green-primary);">
@@ -388,10 +391,10 @@
             <div class="white-clean-card" style="margin-bottom: 35px;">
                 <div class="card-title-bar">
                     <div class="card-title-group">
-                        <span class="card-step-badge" data-i18n="step6_num">৬</span>
-                        <span data-i18n="step6_title">কৃষকের জমির জন্য সুষম সার ব্যবস্থাপত্র (Fertilizer Prescription)</span>
+                        <span class="card-step-badge">৬</span>
+                        <span>কৃষকের জমির জন্য সুষম সার ব্যবস্থাপত্র (Fertilizer Prescription)</span>
                     </div>
-                    <span style="font-size: 0.82rem; color: var(--green-primary); font-weight: 700;" data-i18n="barc_badge">
+                    <span style="font-size: 0.82rem; color: var(--green-primary); font-weight: 700;">
                         বিএআরসি অনুমোদিত নির্দেশিকা
                     </span>
                 </div>
@@ -400,10 +403,10 @@
                     <table class="rx-table-styled">
                         <thead>
                             <tr>
-                                <th data-i18n="th_fert">সারের নাম ও ভূমিকা</th>
-                                <th data-i18n="th_dose">প্রয়োজনীয় পরিমাণ (Kg)</th>
-                                <th data-i18n="th_timing">প্রয়োগের সময় ও কিস্তি</th>
-                                <th data-i18n="th_note">পুষ্টি সমন্বয় মন্তব্য</th>
+                                <th>সারের নাম ও ভূমিকা</th>
+                                <th>প্রয়োজনীয় পরিমাণ (Kg)</th>
+                                <th>প্রয়োগের সময় ও কিস্তি</th>
+                                <th>পুষ্টি সমন্বয় মন্তব্য</th>
                             </tr>
                         </thead>
                         <tbody id="rx-table-body">
@@ -413,175 +416,202 @@
                 </div>
 
                 <!-- Action Cards Quad -->
-                <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--green-primary); margin: 22px 0 14px 0;" data-i18n="action_plan_title">
+                <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--green-primary); margin: 22px 0 14px 0;">
                     🛡️ সমন্বিত রোগ নিরাময় ও প্রতিরোধমূলক পরামর্শ (Comprehensive Action Plan):
                 </h4>
                 <div class="advisory-cards-quad">
                     <div class="adv-action-card immediate">
-                        <h4 data-i18n="action_quad_imm">⚡ জরুরি পদক্ষেপ (Immediate Actions)</h4>
+                        <h4>⚡ জরুরি পদক্ষেপ (Immediate Actions)</h4>
                         <p id="adv-immediate-p">জমিতে অতিরিক্ত ইউরিয়া প্রয়োগ বন্ধ রাখুন।</p>
                     </div>
                     <div class="adv-action-card chemical">
-                        <h4 data-i18n="action_quad_chem">🧪 অনুমোদিত রাসায়নিক দমন (Chemical Fungicide / Bactericide)</h4>
+                        <h4>🧪 অনুমোদিত রাসায়নিক দমন (Chemical Fungicide / Bactericide)</h4>
                         <p id="adv-chemical-p">সুপারিশকৃত ওষুধ নির্দিষ্ট মাত্রায় স্প্রে করুন।</p>
                     </div>
                     <div class="adv-action-card organic">
-                        <h4 data-i18n="action_quad_org">🌿 পরিবেশবান্ধব জৈব চিকিৎসা (Eco-friendly IPM / Organic)</h4>
+                        <h4>🌿 পরিবেশবান্ধব জৈব চিকিৎসা (Eco-friendly IPM / Organic)</h4>
                         <p id="adv-organic-p">নিম খৈল, গোমূত্র ও ট্রাইকোডার্মা ব্যবহার করুন।</p>
                     </div>
                     <div class="adv-action-card preventive">
-                        <h4 data-i18n="action_quad_prev">🌾 দীর্ঘমেয়াদী প্রতিরোধ ও জাত নির্বাচন (Preventive Field Care)</h4>
+                        <h4>🌾 দীর্ঘমেয়াদী প্রতিরোধ ও জাত নির্বাচন (Preventive Field Care)</h4>
                         <p id="adv-preventive-p">পরবর্তী মৌসুমে সুষম সার ও সহনশীল জাত চাষ করুন।</p>
                     </div>
                 </div>
 
                 <div style="display: flex; justify-content: flex-end; margin-top: 15px;">
                     <button type="button" class="btn-print-white" id="btn-print-report">
-                        <span data-i18n="btn_print">🖨️ ডায়াগনস্টিক রিপোর্ট ও প্রেসক্রিপশন প্রিন্ট করুন</span>
+                        <span>🖨️ ডায়াগনস্টিক রিপোর্ট ও প্রেসক্রিপশন প্রিন্ট করুন</span>
                     </button>
                 </div>
             </div>
 
         </section>
+       <div style="background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%); margin-top: 100px; border-radius: 18px; padding: 32px 36px; color: #ffffff; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 24px; box-shadow: 0 8px 24px rgba(27, 67, 50, 0.15);">
+                <div style="max-width: 620px;">
+                    <div style="display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.15); padding: 4px 12px; border-radius: 12px; font-size: 0.78rem; font-weight: 700; margin-bottom: 10px;">
+                        <span>🌾</span>
+                        <span>সরাসরি মাঠপর্যায়ে এখনই ব্যবহার করুন</span>
+                    </div>
+                    <h3 style="font-size: 1.45rem; font-weight: 800; margin: 0 0 8px 0; line-height: 1.3; color: #ffffff;">
+                        আপনার ফসলের পাতা ও মাটির স্বাস্থ্য পরীক্ষা করতে প্রস্তুত?
+                    </h3>
+                    <p style="font-size: 0.88rem; color: #d8f3dc; margin: 0; line-height: 1.5;">
+                        সন্দেহজনক পাতার ছবি আপলোড করুন অথবা মাটির NPK অনুপাত নির্বাচন করে তাৎক্ষণিক রোগ বিশ্লেষণ ও সুষম সার নির্দেশিকা গ্রহণ করুন।
+                    </p>
+                </div>
+                <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                    <button type="button" onclick="window.scrollTo({top: 360, behavior: 'smooth'}); document.getElementById('leaf-file-input').click();" style="background: #ffffff; color: #1b4332; border: none; padding: 12px 24px; border-radius: 10px; font-size: 0.92rem; font-weight: 800; cursor: pointer; transition: transform 0.2s; display: inline-flex; align-items: center; gap: 8px;">
+                        <span>📷 পাতার ছবি তুলুন / দিন</span>
+                    </button>
+                    <a href="/about/" style="background: rgba(255,255,255,0.18); color: #ffffff; text-decoration: none; border: 1.5px solid rgba(255,255,255,0.4); padding: 12px 20px; border-radius: 10px; font-size: 0.92rem; font-weight: 700; display: inline-flex; align-items: center; gap: 6px;">
+                        <span>🔬 গবেষণা বিবরণী দেখুন</span>
+                    </a>
+                </div>
+            </div>
 
     </main>
-
     <!-- Modern Agriculture Workflow & Farming Systems Section -->
-    <!-- Modern Agriculture Workflow & Farming Systems Section -->
-    <section class="farmer-systems-section" style="background: #fbfdfa; border-top: 1px solid #dcedc8; border-bottom: none; padding: 50px 0 40px 0; margin-top: 45px; margin-bottom: 0;">
-        <div class="container">
-            <div style="text-align: center; max-width: 780px; margin: 0 auto 36px auto;">
-                <div style="display: inline-flex; align-items: center; gap: 8px; background: #e8f5e9; border: 1px solid #c8e6c9; color: #2e7d32; padding: 5px 16px; border-radius: 20px; font-size: 0.82rem; font-weight: 700; margin-bottom: 12px;">
-                    <span data-i18n="wf_pill">🌾 স্মার্ট কৃষি ও আধুনিক কর্মপদ্ধতি • Sustainable Smart Agriculture Systems</span>
-                </div>
-                <h2 style="font-size: 1.85rem; font-weight: 800; color: #1b4332; margin-bottom: 10px; line-height: 1.3;" data-i18n="wf_heading">
-                    মাঠ পর্যায়ে কৃষকের আধুনিক ও বিজ্ঞানসম্মত পরিচর্যা পদ্ধতি
-                </h2>
-                <p style="font-size: 0.95rem; color: #555; line-height: 1.5; margin: 0;" data-i18n="wf_sub">
-                    সঠিক সময়ে ফসলের রোগ সনাক্তকরণ, মাটির পুষ্টি উপাদানের পরীক্ষা এবং পরিবেশবান্ধব সমন্বিত বালাই ব্যবস্থাপনায় কৃষকের টেকসই ফসল উৎপাদনের ৪টি কার্যকর ধাপ:
-                </p>
+<section class="farmer-systems-section" style="background: #fbfdfa; border-top: 1px solid #dcedc8; border-bottom: 1px solid #dcedc8; padding: 50px 0; margin-top: 40px;">
+    <div class="container">
+        
+        <!-- Section Header -->
+        <div style="text-align: center; max-width: 780px; margin: 0 auto 36px auto;">
+            <div style="display: inline-flex; align-items: center; gap: 8px; background: #e8f5e9; border: 1px solid #c8e6c9; color: #2e7d32; padding: 5px 16px; border-radius: 20px; font-size: 0.82rem; font-weight: 700; margin-bottom: 12px;">
+                <span>🌾 স্মার্ট কৃষি ও আধুনিক কর্মপদ্ধতি</span>
+                <span>• Sustainable Smart Agriculture Systems</span>
             </div>
+            <h2 style="font-size: 1.85rem; font-weight: 800; color: #1b4332; margin-bottom: 10px; line-height: 1.3;">
+                মাঠ পর্যায়ে কৃষকের আধুনিক ও বিজ্ঞানসম্মত পরিচর্যা পদ্ধতি
+            </h2>
+            <p style="font-size: 0.95rem; color: #555; line-height: 1.5; margin: 0;">
+                সঠিক সময়ে ফসলের রোগ সনাক্তকরণ, মাটির পুষ্টি উপাদানের পরীক্ষা এবং পরিবেশবান্ধব সমন্বিত বালাই ব্যবস্থাপনায় কৃষকের টেকসই ফসল উৎপাদনের ৪টি কার্যকর ধাপ:
+            </p>
+        </div>
 
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px;">
-                <!-- Step Card 1 -->
-                <div style="background: #ffffff; border: 1.5px solid #c8e6c9; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 16px rgba(46, 125, 50, 0.08); display: flex; flex-direction: column;">
-                    <div style="height: 175px; position: relative; overflow: hidden;">
-                        <img src="https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&w=600&q=80" alt="Crop Disease Scouting" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-                        <span style="position: absolute; top: 10px; left: 10px; background: rgba(46, 125, 50, 0.9); color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 9px; border-radius: 12px;" data-i18n="wf_card1_tag">
-                            ধাপ ০১ • পর্যবেক্ষণ
-                        </span>
-                    </div>
-                    <div style="padding: 18px 20px; flex: 1; display: flex; flex-direction: column;">
-                        <h3 style="font-size: 1.05rem; font-weight: 800; color: #1b4332; margin: 0 0 8px 0;" data-i18n="wf_card1_title">
-                            নিয়মিত পাতার স্বাস্থ্য পরীক্ষা
-                        </h3>
-                        <p style="font-size: 0.85rem; color: #666; line-height: 1.45; margin: 0 0 12px 0;" data-i18n="wf_card1_desc">
-                            সকালে ক্ষেতে ঘুরে পাতার রঙ পরিবর্তন, ব্লাস্টের তক্ষু আকৃতির দাগ বা সারকোস্পোরার প্রাথমিক ক্ষত পর্যবেক্ষণ ও মোবাইল ক্যামেরায় ধারণ।
-                        </p>
-                        <div style="margin-top: auto; padding-top: 10px; border-top: 1px dashed #e0e0e0; font-size: 0.78rem; color: #2e7d32; font-weight: 600;" data-i18n="wf_card1_footer">
-                            ✓ এআই ভিত্তিক তাৎক্ষণিক রোগ সনাক্তকরণ
-                        </div>
-                    </div>
+        <!-- 4-Stage Agriculture Workflow Cards -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px;">
+            
+            <!-- ধাপ ১: রোগ পর্যবেক্ষণ -->
+            <div style="background: #ffffff; border: 1.5px solid #c8e6c9; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 16px rgba(46, 125, 50, 0.08); display: flex; flex-direction: column;">
+                <div style="height: 175px; position: relative; overflow: hidden;">
+                    <img src="https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&w=600&q=80" alt="Crop Disease Scouting" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                    <span style="position: absolute; top: 10px; left: 10px; background: rgba(46, 125, 50, 0.9); color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 9px; border-radius: 12px;">
+                        ধাপ ০১ • পর্যবেক্ষণ
+                    </span>
                 </div>
-
-                <!-- Step Card 2 -->
-                <div style="background: #ffffff; border: 1.5px solid #c8e6c9; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 16px rgba(46, 125, 50, 0.08); display: flex; flex-direction: column;">
-                    <div style="height: 175px; position: relative; overflow: hidden;">
-                        <img src="/static/images/hero_organic_farming.jpg" alt="Soil Testing & NPK Analysis" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-                        <span style="position: absolute; top: 10px; left: 10px; background: rgba(46, 125, 50, 0.9); color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 9px; border-radius: 12px;" data-i18n="wf_card2_tag">
-                            ধাপ ০২ • পুষ্টি নির্ণয়
-                        </span>
-                    </div>
-                    <div style="padding: 18px 20px; flex: 1; display: flex; flex-direction: column;">
-                        <h3 style="font-size: 1.05rem; font-weight: 800; color: #1b4332; margin: 0 0 8px 0;" data-i18n="wf_card2_title">
-                            মাটির পুষ্টি ও NPK বিশ্লেষণ
-                        </h3>
-                        <p style="font-size: 0.85rem; color: #666; line-height: 1.45; margin: 0 0 12px 0;" data-i18n="wf_card2_desc">
-                            জমির নাইট্রোজেন (N), ফসফরাস (P), পটাশিয়াম (K) এবং অম্লমান (pH) নিয়মিত পরীক্ষা করে মাটির স্বাস্থ্য স্কোর নির্ধারণ করা।
-                        </p>
-                        <div style="margin-top: auto; padding-top: 10px; border-top: 1px dashed #e0e0e0; font-size: 0.78rem; color: #2e7d32; font-weight: 600;" data-i18n="wf_card2_footer">
-                            ✓ বিএআরসি (BARC) মানদণ্ডে পুষ্টি ঘাটতি নিরূপণ
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Step Card 3 -->
-                <div style="background: #ffffff; border: 1.5px solid #c8e6c9; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 16px rgba(46, 125, 50, 0.08); display: flex; flex-direction: column;">
-                    <div style="height: 175px; position: relative; overflow: hidden;">
-                        <img src="https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&w=600&q=80" alt="Balanced Fertilizer Application" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-                        <span style="position: absolute; top: 10px; left: 10px; background: rgba(46, 125, 50, 0.9); color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 9px; border-radius: 12px;" data-i18n="wf_card3_tag">
-                            ধাপ ০৩ • সুষম সার
-                        </span>
-                    </div>
-                    <div style="padding: 18px 20px; flex: 1; display: flex; flex-direction: column;">
-                        <h3 style="font-size: 1.05rem; font-weight: 800; color: #1b4332; margin: 0 0 8px 0;" data-i18n="wf_card3_title">
-                            সুষম ও কিস্তিবিত্তিক সার প্রয়োগ
-                        </h3>
-                        <p style="font-size: 0.85rem; color: #666; line-height: 1.45; margin: 0 0 12px 0;" data-i18n="wf_card3_desc">
-                            অতিরিক্ত ইউরিয়া পরিহার করে পটাশ, জিপসাম ও জৈব সারের সুষম কিস্তি প্রয়োগ। এতে গাছের রোগ প্রতিরোধ ক্ষমতা বহুগুণ বাড়ে।
-                        </p>
-                        <div style="margin-top: auto; padding-top: 10px; border-top: 1px dashed #e0e0e0; font-size: 0.78rem; color: #2e7d32; font-weight: 600;" data-i18n="wf_card3_footer">
-                            ✓ বিঘা/শতাংশ প্রতি সঠিক ডোজ ব্যবস্থাপনা
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Step Card 4 -->
-                <div style="background: #ffffff; border: 1.5px solid #c8e6c9; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 16px rgba(46, 125, 50, 0.08); display: flex; flex-direction: column;">
-                    <div style="height: 175px; position: relative; overflow: hidden;">
-                        <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=600&q=80" alt="Integrated Pest Management" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-                        <span style="position: absolute; top: 10px; left: 10px; background: rgba(46, 125, 50, 0.9); color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 9px; border-radius: 12px;" data-i18n="wf_card4_tag">
-                            ধাপ ০৪ • সমন্বিত দমন
-                        </span>
-                    </div>
-                    <div style="padding: 18px 20px; flex: 1; display: flex; flex-direction: column;">
-                        <h3 style="font-size: 1.05rem; font-weight: 800; color: #1b4332; margin: 0 0 8px 0;" data-i18n="wf_card4_title">
-                            পরিবেশবান্ধব আইপিএম ও ফলন
-                        </h3>
-                        <p style="font-size: 0.85rem; color: #666; line-height: 1.45; margin: 0 0 12px 0;" data-i18n="wf_card4_desc">
-                            ট্রাইকোডার্মা, আলো-ফাঁদ ও প্রাকৃতিক শত্রু পোকার সাহায্যে বালাই দমন করে নিরাপদ ফসল ও টেকসই উর্বরতা বজায় রাখা।
-                        </p>
-                        <div style="margin-top: auto; padding-top: 10px; border-top: 1px dashed #e0e0e0; font-size: 0.78rem; color: #2e7d32; font-weight: 600;" data-i18n="wf_card4_footer">
-                            ✓ রাসায়নিক খরচ ৩০% হ্রাস ও সুস্থ ফলন
-                        </div>
+                <div style="padding: 18px 20px; flex: 1; display: flex; flex-direction: column;">
+                    <h3 style="font-size: 1.05rem; font-weight: 800; color: #1b4332; margin: 0 0 8px 0;">
+                        নিয়মিত পাতার স্বাস্থ্য পরীক্ষা
+                    </h3>
+                    <p style="font-size: 0.85rem; color: #666; line-height: 1.45; margin: 0 0 12px 0;">
+                        সকালে ক্ষেতে ঘুরে পাতার রঙ পরিবর্তন, ব্লাস্টের তক্ষু আকৃতির দাগ বা সারকোস্পোরার প্রাথমিক ক্ষত পর্যবেক্ষণ ও মোবাইল ক্যামেরায় ধারণ।
+                    </p>
+                    <div style="margin-top: auto; padding-top: 10px; border-top: 1px dashed #e0e0e0; font-size: 0.78rem; color: #2e7d32; font-weight: 600;">
+                        ✓ এআই ভিত্তিক তাৎক্ষণিক রোগ সনাক্তকরণ
                     </div>
                 </div>
             </div>
 
-            <!-- Modern Farmer Advisory Summary Banner -->
-            <div style="margin-top: 30px; background: #ffffff; border: 1px solid #c8e6c9; border-radius: 14px; padding: 18px 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; box-shadow: 0 2px 8px rgba(46, 125, 50, 0.06);">
-                <div style="display: flex; align-items: center; gap: 12px;">
-                    <div style="font-size: 1.8rem;">🚜</div>
-                    <div>
-                        <strong style="color: #1b4332; font-size: 0.95rem;" data-i18n="tractor_title">কৃষকের স্মার্ট সিদ্ধান্তই পারে নিশ্চিত করতে সুস্থ ফসল ও সমৃদ্ধ বাংলাদেশ</strong>
-                        <p style="margin: 2px 0 0 0; font-size: 0.82rem; color: #666;" data-i18n="tractor_desc">ডিজিটাল ডায়াগনোসিস ও সুষম সার প্রয়োগে মাটির উর্বরতা রক্ষা পায় এবং উৎপাদন খরচ কমে।</p>
+            <!-- ধাপ ২: মাটির পুষ্টি নির্ণয় -->
+            <div style="background: #ffffff; border: 1.5px solid #c8e6c9; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 16px rgba(46, 125, 50, 0.08); display: flex; flex-direction: column;">
+                <div style="height: 175px; position: relative; overflow: hidden;">
+                    <img src="/static/images/samples/main pic.jpg" alt="Soil Testing & NPK Analysis" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                    <span style="position: absolute; top: 10px; left: 10px; background: rgba(46, 125, 50, 0.9); color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 9px; border-radius: 12px;">
+                        ধাপ ০২ • পুষ্টি নির্ণয়
+                    </span>
+                </div>
+                <div style="padding: 18px 20px; flex: 1; display: flex; flex-direction: column;">
+                    <h3 style="font-size: 1.05rem; font-weight: 800; color: #1b4332; margin: 0 0 8px 0;">
+                        মাটির পুষ্টি ও NPK বিশ্লেষণ
+                    </h3>
+                    <p style="font-size: 0.85rem; color: #666; line-height: 1.45; margin: 0 0 12px 0;">
+                        জমির নাইট্রোজেন (N), ফসফরাস (P), পটাশিয়াম (K) এবং অম্লমান (pH) নিয়মিত পরীক্ষা করে মাটির স্বাস্থ্য স্কোর নির্ধারণ করা।
+                    </p>
+                    <div style="margin-top: auto; padding-top: 10px; border-top: 1px dashed #e0e0e0; font-size: 0.78rem; color: #2e7d32; font-weight: 600;">
+                        ✓ বিএআরসি (BARC) মানদণ্ডে পুষ্টি ঘাটতি নিরূপণ
                     </div>
                 </div>
-                <div style="display: flex; gap: 8px;">
-                    <span style="background: #e8f5e9; color: #2e7d32; font-size: 0.8rem; font-weight: 700; padding: 6px 14px; border-radius: 20px; border: 1px solid #c8e6c9;" data-i18n="tractor_tag1">
-                        🌾 ২৫-৩০% সার সাশ্রয়
+            </div>
+
+            <!-- ধাপ ৩: সুষম সার প্রয়োগ -->
+            <div style="background: #ffffff; border: 1.5px solid #c8e6c9; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 16px rgba(46, 125, 50, 0.08); display: flex; flex-direction: column;">
+                <div style="height: 175px; position: relative; overflow: hidden;">
+                    <img src="https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&w=600&q=80" alt="Balanced Fertilizer Application" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                    <span style="position: absolute; top: 10px; left: 10px; background: rgba(46, 125, 50, 0.9); color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 9px; border-radius: 12px;">
+                        ধাপ ০৩ • সুষম সার
                     </span>
-                    <span style="background: #e8f5e9; color: #2e7d32; font-size: 0.8rem; font-weight: 700; padding: 6px 14px; border-radius: 20px; border: 1px solid #c8e6c9;" data-i18n="tractor_tag2">
-                        🛡️ ৩৫% রোগ প্রতিরোধ
+                </div>
+                <div style="padding: 18px 20px; flex: 1; display: flex; flex-direction: column;">
+                    <h3 style="font-size: 1.05rem; font-weight: 800; color: #1b4332; margin: 0 0 8px 0;">
+                        সুষম ও কিস্তিবিত্তিক সার প্রয়োগ
+                    </h3>
+                    <p style="font-size: 0.85rem; color: #666; line-height: 1.45; margin: 0 0 12px 0;">
+                        অতিরিক্ত ইউরিয়া পরিহার করে পটাশ, জিপসাম ও জৈব সারের সুষম কিস্তি প্রয়োগ। এতে গাছের রোগ প্রতিরোধ ক্ষমতা বহুগুণ বাড়ে।
+                    </p>
+                    <div style="margin-top: auto; padding-top: 10px; border-top: 1px dashed #e0e0e0; font-size: 0.78rem; color: #2e7d32; font-weight: 600;">
+                        ✓ বিঘা/শতাংশ প্রতি সঠিক ডোজ ব্যবস্থাপনা
+                    </div>
+                </div>
+            </div>
+
+            <!-- ধাপ ৪: সমন্বিত বালাই দমন (IPM) -->
+            <div style="background: #ffffff; border: 1.5px solid #c8e6c9; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 16px rgba(46, 125, 50, 0.08); display: flex; flex-direction: column;">
+                <div style="height: 175px; position: relative; overflow: hidden;">
+                    <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=600&q=80" alt="Integrated Pest Management" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                    <span style="position: absolute; top: 10px; left: 10px; background: rgba(46, 125, 50, 0.9); color: #fff; font-size: 0.72rem; font-weight: 700; padding: 3px 9px; border-radius: 12px;">
+                        ধাপ ০৪ • সমন্বিত দমন
                     </span>
+                </div>
+                <div style="padding: 18px 20px; flex: 1; display: flex; flex-direction: column;">
+                    <h3 style="font-size: 1.05rem; font-weight: 800; color: #1b4332; margin: 0 0 8px 0;">
+                        পরিবেশবান্ধব আইপিএম ও ফলন
+                    </h3>
+                    <p style="font-size: 0.85rem; color: #666; line-height: 1.45; margin: 0 0 12px 0;">
+                        ট্রাইকোডার্মা, আলো-ফাঁদ ও প্রাকৃতিক শত্রু পোকার সাহায্যে বালাই দমন করে নিরাপদ ফসল ও টেকসই উর্বরতা বজায় রাখা।
+                    </p>
+                    <div style="margin-top: auto; padding-top: 10px; border-top: 1px dashed #e0e0e0; font-size: 0.78rem; color: #2e7d32; font-weight: 600;">
+                        ✓ রাসায়নিক খরচ ৩০% হ্রাস ও সুস্থ ফলন
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+
+        <!-- Modern Farmer Advisory Summary Banner -->
+        <div style="margin-top: 30px; background: #ffffff; border: 1px solid #c8e6c9; border-radius: 14px; padding: 18px 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; box-shadow: 0 2px 8px rgba(46, 125, 50, 0.06);">
+            <div style="display: flex; align-items: center; gap: 12px;">
+                <div style="font-size: 1.8rem;">🚜</div>
+                <div>
+                    <strong style="color: #1b4332; font-size: 0.95rem;">কৃষকের স্মার্ট সিদ্ধান্তই পারে নিশ্চিত করতে সুস্থ ফসল ও সমৃদ্ধ বাংলাদেশ</strong>
+                    <p style="margin: 2px 0 0 0; font-size: 0.82rem; color: #666;">ডিজিটাল ডায়াগনোসিস ও সুষম সার প্রয়োগে মাটির উর্বরতা রক্ষা পায় এবং উৎপাদন খরচ কমে।</p>
+                </div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+                <span style="background: #e8f5e9; color: #2e7d32; font-size: 0.8rem; font-weight: 700; padding: 6px 14px; border-radius: 20px; border: 1px solid #c8e6c9;">
+                    🌾 ২৫-৩০% সার সাশ্রয়
+                </span>
+                <span style="background: #e8f5e9; color: #2e7d32; font-size: 0.8rem; font-weight: 700; padding: 6px 14px; border-radius: 20px; border: 1px solid #c8e6c9;">
+                    🛡️ ৩৫% রোগ প্রতিরোধ
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+
 
     <!-- NEW UNIQUE SECTION: Agro-Ecological Insights, Regional Soil Vulnerability & Real-world Impact -->
-    <section class="regional-impact-section" style="background: #ffffff; border-top: 1.5px solid #dcedc8; padding: 65px 0 70px 0;">
+    <section class="regional-impact-section" style="background: #ffffff; border-top: .4px solid #dcedc8; padding: 65px 0 160px 0;">
         <div class="container">
             
             <!-- Section Header -->
             <div style="text-align: center; max-width: 820px; margin: 0 auto 40px auto;">
                 <div style="display: inline-flex; align-items: center; gap: 8px; background: #e8f5e9; border: 1px solid #c8e6c9; color: #1b5e20; padding: 5px 18px; border-radius: 20px; font-size: 0.82rem; font-weight: 800; margin-bottom: 12px;">
-                    <span data-i18n="reg_pill">🇧🇩 বাংলাদেশের কৃষি অঞ্চলভিত্তিক গবেষণা ও বাস্তব প্রভাব • Regional Agro-Ecological Impact</span>
+                    <span>🇧🇩 বাংলাদেশের কৃষি অঞ্চলভিত্তিক গবেষণা ও বাস্তব প্রভাব</span>
+                    <span>• Regional Agro-Ecological Impact</span>
                 </div>
-                <h2 style="font-size: 1.95rem; font-weight: 800; color: #1b4332; margin-bottom: 12px; line-height: 1.3;" data-i18n="reg_heading">
+                <h2 style="font-size: 1.95rem; font-weight: 800; color: #1b4332; margin-bottom: 12px; line-height: 1.3;">
                     মাটি ও ফসলের সুরক্ষায় AgriXAI কেন নির্ভরযোগ্য ও অনন্য?
                 </h2>
-                <p style="font-size: 0.95rem; color: #555; line-height: 1.6; margin: 0;" data-i18n="reg_sub">
+                <p style="font-size: 0.95rem; color: #555; line-height: 1.6; margin: 0;">
                     বাংলাদেশের বিভিন্ন কৃষি অঞ্চলের (Agro-Ecological Zones) মাটির তারতম্য, পুষ্টি ভারসাম্যহীনতা এবং ধান ও পাটের অঞ্চলভিত্তিক রোগবালাইয়ের বিস্তার বিশ্লেষণ করে এই সিস্টেমের এআই ইঞ্জিন ও বিএআরসি অ্যালগরিদম সুসংগঠিত করা হয়েছে।
                 </p>
             </div>
@@ -589,38 +619,38 @@
             <!-- 4 Measurable Impact Metrics Cards -->
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-bottom: 45px;">
                 <div style="background: #fbfdfa; border: 1.5px solid #c8e6c9; border-radius: 16px; padding: 22px; text-align: center; box-shadow: 0 4px 14px rgba(46, 125, 50, 0.05);">
-                    <div style="font-size: 2.2rem; font-weight: 900; color: #2e7d32; line-height: 1; margin-bottom: 6px;" data-i18n="metric1_val">৯৮.৪%</div>
-                    <strong style="color: #1b4332; font-size: 0.95rem; display: block; margin-bottom: 6px;" data-i18n="metric1_title">রোগ নির্ণয় নির্ভুলতা</strong>
-                    <p style="font-size: 0.82rem; color: #666; margin: 0; line-height: 1.45;" data-i18n="metric1_desc">MobileNetV2 আর্কিটেকচার দ্বারা ৯টি ধান ও পাটের প্রধান রোগ ও সুস্থ পাতা ক্লাসিফিকেশন।</p>
+                    <div style="font-size: 2.2rem; font-weight: 900; color: #2e7d32; line-height: 1; margin-bottom: 6px;">৯৮.৪%</div>
+                    <strong style="color: #1b4332; font-size: 0.95rem; display: block; margin-bottom: 6px;">রোগ নির্ণয় নির্ভুলতা</strong>
+                    <p style="font-size: 0.82rem; color: #666; margin: 0; line-height: 1.45;">MobileNetV2 আর্কিটেকচার দ্বারা ৯টি ধান ও পাটের প্রধান রোগ ও সুস্থ পাতা ক্লাসিফিকেশন।</p>
                 </div>
 
                 <div style="background: #fbfdfa; border: 1.5px solid #c8e6c9; border-radius: 16px; padding: 22px; text-align: center; box-shadow: 0 4px 14px rgba(46, 125, 50, 0.05);">
-                    <div style="font-size: 2.2rem; font-weight: 900; color: #0288d1; line-height: 1; margin-bottom: 6px;" data-i18n="metric2_val">&lt; ২.৫ সে.</div>
-                    <strong style="color: #1b4332; font-size: 0.95rem; display: block; margin-bottom: 6px;" data-i18n="metric2_title">তাৎক্ষণিক ডায়াগনোসিস</strong>
-                    <p style="font-size: 0.82rem; color: #666; margin: 0; line-height: 1.45;" data-i18n="metric2_desc">পাতার ছবি আপলোডের কয়েক সেকেন্ডের মধ্যে Grad-CAM রঙিন হিটম্যাপ ও বাংলা প্রেসক্রিপশন।</p>
+                    <div style="font-size: 2.2rem; font-weight: 900; color: #0288d1; line-height: 1; margin-bottom: 6px;">&lt; ২.৫ সে.</div>
+                    <strong style="color: #1b4332; font-size: 0.95rem; display: block; margin-bottom: 6px;">তাৎক্ষণিক ডায়াগনোসিস</strong>
+                    <p style="font-size: 0.82rem; color: #666; margin: 0; line-height: 1.45;">পাতার ছবি আপলোডের কয়েক সেকেন্ডের মধ্যে Grad-CAM রঙিন হিটম্যাপ ও বাংলা প্রেসক্রিপশন।</p>
                 </div>
 
                 <div style="background: #fbfdfa; border: 1.5px solid #c8e6c9; border-radius: 16px; padding: 22px; text-align: center; box-shadow: 0 4px 14px rgba(46, 125, 50, 0.05);">
-                    <div style="font-size: 2.2rem; font-weight: 900; color: #e65100; line-height: 1; margin-bottom: 6px;" data-i18n="metric3_val">২৫–৩০%</div>
-                    <strong style="color: #1b4332; font-size: 0.95rem; display: block; margin-bottom: 6px;" data-i18n="metric3_title">সারের অপচয় ও খরচ সাশ্রয়</strong>
-                    <p style="font-size: 0.82rem; color: #666; margin: 0; line-height: 1.45;" data-i18n="metric3_desc">বিএআরসি সুষম সার নির্দেশিকায় জমির পরিমাণ অনুযায়ী কেজি হিসেবে সঠিক সারের ডোজ নির্ধারণ।</p>
+                    <div style="font-size: 2.2rem; font-weight: 900; color: #e65100; line-height: 1; margin-bottom: 6px;">২৫–৩০%</div>
+                    <strong style="color: #1b4332; font-size: 0.95rem; display: block; margin-bottom: 6px;">সারের অপচয় ও খরচ সাশ্রয়</strong>
+                    <p style="font-size: 0.82rem; color: #666; margin: 0; line-height: 1.45;">বিএআরসি সুষম সার নির্দেশিকায় জমির পরিমাণ অনুযায়ী কেজি হিসেবে সঠিক সারের ডোজ নির্ধারণ।</p>
                 </div>
 
                 <div style="background: #fbfdfa; border: 1.5px solid #c8e6c9; border-radius: 16px; padding: 22px; text-align: center; box-shadow: 0 4px 14px rgba(46, 125, 50, 0.05);">
-                    <div style="font-size: 2.2rem; font-weight: 900; color: #1b5e20; line-height: 1; margin-bottom: 6px;" data-i18n="metric4_val">৩৫%</div>
-                    <strong style="color: #1b4332; font-size: 0.95rem; display: block; margin-bottom: 6px;" data-i18n="metric4_title">রোগবালাই আগাম প্রতিরোধ</strong>
-                    <p style="font-size: 0.82rem; color: #666; margin: 0; line-height: 1.45;" data-i18n="metric4_desc">মাটির NPK ও পিএইচ সমন্বয়ে ফসলের প্রাকৃতিক রোগ প্রতিরোধ ক্ষমতা বৃদ্ধি ও দীর্ঘস্থায়ী সুরক্ষা।</p>
+                    <div style="font-size: 2.2rem; font-weight: 900; color: #1b5e20; line-height: 1; margin-bottom: 6px;">৩৫%</div>
+                    <strong style="color: #1b4332; font-size: 0.95rem; display: block; margin-bottom: 6px;">রোগবালাই আগাম প্রতিরোধ</strong>
+                    <p style="font-size: 0.82rem; color: #666; margin: 0; line-height: 1.45;">মাটির NPK ও পিএইচ সমন্বয়ে ফসলের প্রাকৃতিক রোগ প্রতিরোধ ক্ষমতা বৃদ্ধি ও দীর্ঘস্থায়ী সুরক্ষা।</p>
                 </div>
             </div>
 
             <!-- Regional Vulnerability & Soil Linking Grid (4 Agricultural Zones) -->
-            <div style="background: #f9fbf8; border: 1.5px solid #dcedc8; border-radius: 18px; padding: 32px 28px; margin-bottom: 40px;">
+            <div style="background: #f9fbf8; border: 1.5px solid #dcedc8; border-radius: 18px; padding: 32px 28px; margin-bottom: 40px; margin-top:100px">
                 <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 24px; border-bottom: 1.5px solid #e0ede0; padding-bottom: 14px;">
                     <div>
-                        <h3 style="font-size: 1.25rem; font-weight: 800; color: #1b4332; margin: 0 0 4px 0;" data-i18n="zones_title">
+                        <h3 style="font-size: 1.25rem; font-weight: 800; color: #1b4332; margin: 0 0 4px 0;">
                             🗺️ বাংলাদেশের ৪টি প্রধান কৃষি অঞ্চলের মাটি ও রোগ ঝুঁকি বিশ্লেষণ
                         </h3>
-                        <p style="font-size: 0.85rem; color: #666; margin: 0;" data-i18n="zones_sub">
+                        <p style="font-size: 0.85rem; color: #666; margin: 0;">
                             অঞ্চলভেদে পুষ্টি ঘাটতি ও রোগবালাইয়ের সম্পর্ক জেনে মাঠপর্যায়ে সঠিক ব্যবস্থা গ্রহণ:
                         </p>
                     </div>
@@ -629,18 +659,18 @@
                     </span>
                 </div>
 
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 18px;">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 18px; margin-top:50px">
                     
                     <!-- Zone 1: Barind -->
                     <div style="background: #ffffff; border: 1px solid #c8e6c9; border-radius: 14px; padding: 18px; display: flex; flex-direction: column;">
                         <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
                             <span style="font-size: 1.3rem;">🏜️</span>
-                            <strong style="font-size: 0.95rem; color: #1b4332;" data-i18n="z1_title">বরেন্দ্র অঞ্চল (রাজশাহী, নওগাঁ)</strong>
+                            <strong style="font-size: 0.95rem; color: #1b4332;">বরেন্দ্র অঞ্চল (রাজশাহী, নওগাঁ)</strong>
                         </div>
                         <div style="font-size: 0.8rem; line-height: 1.5; color: #555; flex: 1;">
-                            <p style="margin: 0 0 6px 0;" data-i18n="z1_soil"><strong style="color: #b45309;">মাটির বৈশিষ্ট্য:</strong> লালচে এঁটেল, দ্রুত আর্দ্রতা হারায়, নাইট্রোজেন ও জৈব পদার্থের চরম ঘাটতি।</p>
-                            <p style="margin: 0 0 6px 0;" data-i18n="z1_disease"><strong style="color: #dc2626;">রোগের ঝুঁকি:</strong> ধানের পাতা পোড়া (Blight) ও ব্লাস্ট।</p>
-                            <p style="margin: 0; background: #e8f5e9; padding: 6px 10px; border-radius: 6px; color: #1b5e20;" data-i18n="z1_sol"><strong>AgriXAI সমাধান:</strong> কিস্তিবিত্তিক ইউরিয়া প্রয়োগ ও দস্তা (Zinc) সার সমন্বয়।</p>
+                            <p style="margin: 0 0 6px 0;"><strong style="color: #b45309;">মাটির বৈশিষ্ট্য:</strong> লালচে এঁটেল, দ্রুত আর্দ্রতা হারায়, নাইট্রোজেন ও জৈব পদার্থের চরম ঘাটতি।</p>
+                            <p style="margin: 0 0 6px 0;"><strong style="color: #dc2626;">রোগের ঝুঁকি:</strong> ধানের পাতা পোড়া (Blight) ও ব্লাস্ট।</p>
+                            <p style="margin: 0; background: #e8f5e9; padding: 6px 10px; border-radius: 6px; color: #1b5e20;"><strong>AgriXAI সমাধান:</strong> কিস্তিবিত্তিক ইউরিয়া প্রয়োগ ও দস্তা (Zinc) সার সমন্বয়।</p>
                         </div>
                     </div>
 
@@ -648,12 +678,12 @@
                     <div style="background: #ffffff; border: 1px solid #c8e6c9; border-radius: 14px; padding: 18px; display: flex; flex-direction: column;">
                         <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
                             <span style="font-size: 1.3rem;">🌊</span>
-                            <strong style="font-size: 0.95rem; color: #1b4332;" data-i18n="z2_title">হাওর ও উত্তর-পূর্বাঞ্চল (সিলেট, সুনামগঞ্জ)</strong>
+                            <strong style="font-size: 0.95rem; color: #1b4332;">হাওর ও উত্তর-পূর্বাঞ্চল (সিলেট, সুনামগঞ্জ)</strong>
                         </div>
                         <div style="font-size: 0.8rem; line-height: 1.5; color: #555; flex: 1;">
-                            <p style="margin: 0 0 6px 0;" data-i18n="z2_soil"><strong style="color: #b45309;">মাটির বৈশিষ্ট্য:</strong> দীর্ঘস্থায়ী জলাবদ্ধ পলি মাটি, তীব্র পটাশিয়াম (K) ক্ষয় ও অম্লীয় অবস্থা (pH &lt; ৫.৫)।</p>
-                            <p style="margin: 0 0 6px 0;" data-i18n="z2_disease"><strong style="color: #dc2626;">রোগের ঝুঁকি:</strong> ধানের বাদামী দাগ (Brown Spot) ও চারা ধ্বসা।</p>
-                            <p style="margin: 0; background: #e8f5e9; padding: 6px 10px; border-radius: 6px; color: #1b5e20;" data-i18n="z2_sol"><strong>AgriXAI সমাধান:</strong> এমওপি (পটাশ) সারের সঠিক মাত্রা এবং ডলোমাইট চুন প্রয়োগ।</p>
+                            <p style="margin: 0 0 6px 0;"><strong style="color: #b45309;">মাটির বৈশিষ্ট্য:</strong> দীর্ঘস্থায়ী জলাবদ্ধ পলি মাটি, তীব্র পটাশিয়াম (K) ক্ষয় ও অম্লীয় অবস্থা (pH &lt; ৫.৫)।</p>
+                            <p style="margin: 0 0 6px 0;"><strong style="color: #dc2626;">রোগের ঝুঁকি:</strong> ধানের বাদামী দাগ (Brown Spot) ও চারা ধ্বসা।</p>
+                            <p style="margin: 0; background: #e8f5e9; padding: 6px 10px; border-radius: 6px; color: #1b5e20;"><strong>AgriXAI সমাধান:</strong> এমওপি (পটাশ) সারের সঠিক মাত্রা এবং ডলোমাইট চুন প্রয়োগ।</p>
                         </div>
                     </div>
 
@@ -661,12 +691,12 @@
                     <div style="background: #ffffff; border: 1px solid #c8e6c9; border-radius: 14px; padding: 18px; display: flex; flex-direction: column;">
                         <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
                             <span style="font-size: 1.3rem;">🌿</span>
-                            <strong style="font-size: 0.95rem; color: #1b4332;" data-i18n="z3_title">তিস্তা ও পলল অঞ্চল (রংপুর, ফরিদপুর)</strong>
+                            <strong style="font-size: 0.95rem; color: #1b4332;">তিস্তা ও পলল অঞ্চল (রংপুর, ফরিদপুর)</strong>
                         </div>
                         <div style="font-size: 0.8rem; line-height: 1.5; color: #555; flex: 1;">
-                            <p style="margin: 0 0 6px 0;" data-i18n="z3_soil"><strong style="color: #b45309;">মাটির বৈশিষ্ট্য:</strong> উর্বর বেলে-দোআঁশ, আর্দ্র অববাহিকা, পাটের জন্য অত্যন্ত অনুকূল তবে ছত্রাকপ্রবণ।</p>
-                            <p style="margin: 0 0 6px 0;" data-i18n="z3_disease"><strong style="color: #dc2626;">রোগের ঝুঁকি:</strong> পাটের কান্ড পচা (Stem Rot) ও গোল্ডেন মোজাইক।</p>
-                            <p style="margin: 0; background: #e8f5e9; padding: 6px 10px; border-radius: 6px; color: #1b5e20;" data-i18n="z3_sol"><strong>AgriXAI সমাধান:</strong> সুষম টিএসপি ও জিপসাম প্রয়োগ এবং ট্রাইকোডার্মা জৈব বীজ শোধন।</p>
+                            <p style="margin: 0 0 6px 0;"><strong style="color: #b45309;">মাটির বৈশিষ্ট্য:</strong> উর্বর বেলে-দোআঁশ, আর্দ্র অববাহিকা, পাটের জন্য অত্যন্ত অনুকূল তবে ছত্রাকপ্রবণ।</p>
+                            <p style="margin: 0 0 6px 0;"><strong style="color: #dc2626;">রোগের ঝুঁকি:</strong> পাটের কান্ড পচা (Stem Rot) ও গোল্ডেন মোজাইক।</p>
+                            <p style="margin: 0; background: #e8f5e9; padding: 6px 10px; border-radius: 6px; color: #1b5e20;"><strong>AgriXAI সমাধান:</strong> সুষম টিএসপি ও জিপসাম প্রয়োগ এবং ট্রাইকোডার্মা জৈব বীজ শোধন।</p>
                         </div>
                     </div>
 
@@ -674,87 +704,88 @@
                     <div style="background: #ffffff; border: 1px solid #c8e6c9; border-radius: 14px; padding: 18px; display: flex; flex-direction: column;">
                         <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
                             <span style="font-size: 1.3rem;">🌴</span>
-                            <strong style="font-size: 0.95rem; color: #1b4332;" data-i18n="z4_title">উপকূলীয় অঞ্চল (খুলনা, বরিশাল)</strong>
+                            <strong style="font-size: 0.95rem; color: #1b4332;">উপকূলীয় অঞ্চল (খুলনা, বরিশাল)</strong>
                         </div>
                         <div style="font-size: 0.8rem; line-height: 1.5; color: #555; flex: 1;">
-                            <p style="margin: 0 0 6px 0;" data-i18n="z4_soil"><strong style="color: #b45309;">মাটির বৈশিষ্ট্য:</strong> লবণাক্ততার পরিবর্তনশীল মাত্রা ও ক্ষারীয়/উচ্চ পিএইচ (pH &gt; ৭.৫)।</p>
-                            <p style="margin: 0 0 6px 0;" data-i18n="z4_disease"><strong style="color: #dc2626;">রোগের ঝুঁকি:</strong> ধানের টুংরো ভাইরাস ও শিকড় পচা।</p>
-                            <p style="margin: 0; background: #e8f5e9; padding: 6px 10px; border-radius: 6px; color: #1b5e20;" data-i18n="z4_sol"><strong>AgriXAI সমাধান:</strong> সুষম জিপসাম, সবুজ সার (ধৈঞ্চা) চাষ ও লবণ সহনশীল জাত নির্বাচন।</p>
+                            <p style="margin: 0 0 6px 0;"><strong style="color: #b45309;">মাটির বৈশিষ্ট্য:</strong> লবণাক্ততার পরিবর্তনশীল মাত্রা ও ক্ষারীয়/উচ্চ পিএইচ (pH &gt; ৭.৫)।</p>
+                            <p style="margin: 0 0 6px 0;"><strong style="color: #dc2626;">রোগের ঝুঁকি:</strong> ধানের টুংরো ভাইরাস ও শিকড় পচা।</p>
+                            <p style="margin: 0; background: #e8f5e9; padding: 6px 10px; border-radius: 6px; color: #1b5e20;"><strong>AgriXAI সমাধান:</strong> সুষম জিপসাম, সবুজ সার (ধৈঞ্চা) চাষ ও লবণ সহনশীল জাত নির্বাচন।</p>
                         </div>
                     </div>
 
                 </div>
             </div>
 
-            <!-- Interactive Diagnostic Call-To-Action Card (Unique Midnight Teal & Bio-Green Theme) -->
-            <div style="background: linear-gradient(135deg, #092c1d 0%, #0c4d44 50%, #153859 100%); border: 1.5px solid rgba(110, 231, 183, 0.25); border-radius: 20px; padding: 36px 40px; color: #ffffff; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 28px; box-shadow: 0 12px 36px rgba(9, 44, 29, 0.22); position: relative; overflow: hidden;">
-                <div style="max-width: 640px; z-index: 2;">
-                    <div style="display: inline-flex; align-items: center; gap: 7px; background: rgba(245, 158, 11, 0.18); border: 1px solid rgba(245, 158, 11, 0.45); color: #fde68a; padding: 5px 14px; border-radius: 20px; font-size: 0.8rem; font-weight: 800; margin-bottom: 12px;">
-                        <span>✨</span>
-                        <span data-i18n="cta_pill">ডিজিটাল বাংলাদেশ • স্মার্ট কৃষির নতুন দিগন্ত</span>
-                    </div>
-                    <h3 style="font-size: 1.55rem; font-weight: 800; margin: 0 0 10px 0; line-height: 1.35; color: #ffffff;" data-i18n="cta_heading">
-                        কৃষির ভবিষ্যৎ এখন হাতের মুঠোয় • এক ক্লিকেই ফসল ও মাটির পূর্ণাঙ্গ সমাধান
-                    </h3>
-                    <p style="font-size: 0.9rem; color: #e2f1e7; margin: 0; line-height: 1.6; opacity: 0.95;" data-i18n="cta_sub">
-                        অনিশ্চয়তা ও অন্ধ অনুমান নয়—কৃত্রিম বুদ্ধিমত্তার চোখ ও বিএআরসি বিজ্ঞানসম্মত সার নির্দেশিকায় আপনার ধান ও পাটের প্রতিটি ক্ষেত রাখুন রোগমুক্ত ও প্রাণবন্ত।
-                    </p>
-                </div>
-                <div style="display: flex; gap: 14px; flex-wrap: wrap; z-index: 2;">
-                    <button type="button" onclick="window.scrollTo({top: 360, behavior: 'smooth'}); document.getElementById('leaf-file-input').click();" style="background: #fbbf24; color: #082d1c; border: none; padding: 13px 26px; border-radius: 12px; font-size: 0.95rem; font-weight: 800; cursor: pointer; transition: all 0.2s; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 18px rgba(251, 191, 36, 0.35);">
-                        <span data-i18n="cta_btn1">🌾 স্মার্ট ডায়াগনোসিস শুরু করুন</span>
-                    </button>
-                    <a href="/about/" style="background: rgba(255,255,255,0.12); color: #ffffff; text-decoration: none; border: 1.5px solid rgba(255,255,255,0.35); padding: 13px 22px; border-radius: 12px; font-size: 0.92rem; font-weight: 700; display: inline-flex; align-items: center; gap: 7px; transition: all 0.2s; backdrop-filter: blur(4px);">
-                        <span data-i18n="cta_btn2">📖 গবেষণাপত্র ও গাণিতিক ভিত্তি</span>
-                    </a>
-                </div>
-            </div>
-
+            <!-- Interactive Diagnostic Call-To-Action Card -->
+            
+<div style="background: linear-gradient(135deg, #092c1d 0%, #0c4d44 50%, #153859 100%); border: 1.5px solid rgba(110, 231, 183, 0.25); border-radius: 20px; padding: 36px 40px; color: #ffffff; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 28px; box-shadow: 0 12px 36px rgba(9, 44, 29, 0.22); position: relative; overflow: hidden; margin-top:100px">
+    <div style="max-width: 640px; z-index: 2;">
+        <div style="display: inline-flex; align-items: center; gap: 7px; background: rgba(245, 158, 11, 0.18); border: 1px solid rgba(245, 158, 11, 0.45); color: #fde68a; padding: 5px 14px; border-radius: 20px; font-size: 0.8rem; font-weight: 800; margin-bottom: 12px;">
+            <span>✨</span>
+            <span>ডিজিটাল বাংলাদেশ • স্মার্ট কৃষির নতুন দিগন্ত</span>
         </div>
+        <h3 style="font-size: 1.55rem; font-weight: 800; margin: 0 0 10px 0; line-height: 1.35; color: #ffffff;">
+            কৃষির ভবিষ্যৎ এখন হাতের মুঠোয় • এক ক্লিকেই ফসল ও মাটির পূর্ণাঙ্গ সমাধান
+        </h3>
+        <p style="font-size: 0.9rem; color: #e2f1e7; margin: 0; line-height: 1.6; opacity: 0.95;">
+            অনিশ্চয়তা ও অন্ধ অনুমান নয়—কৃত্রিম বুদ্ধিমত্তার চোখ ও বিএআরসি বিজ্ঞানসম্মত সার নির্দেশিকায় আপনার ধান ও পাটের প্রতিটি ক্ষেত রাখুন রোগমুক্ত ও প্রাণবন্ত।
+        </p>
+    </div>
+    <div style="display: flex; gap: 14px; flex-wrap: wrap; z-index: 2;">
+        <button type="button" onclick="window.scrollTo({top: 360, behavior: 'smooth'}); document.getElementById('leaf-file-input').click();" style="background: #fbbf24; color: #082d1c; border: none; padding: 13px 26px; border-radius: 12px; font-size: 0.95rem; font-weight: 800; cursor: pointer; transition: all 0.2s; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 18px rgba(251, 191, 36, 0.35);">
+            <span>🌾 স্মার্ট ডায়াগনোসিস শুরু করুন</span>
+        </button>
+        <a href="/about/" style="background: rgba(255,255,255,0.12); color: #ffffff; text-decoration: none; border: 1.5px solid rgba(255,255,255,0.35); padding: 13px 22px; border-radius: 12px; font-size: 0.92rem; font-weight: 700; display: inline-flex; align-items: center; gap: 7px; transition: all 0.2s; backdrop-filter: blur(4px);">
+            <span>📖 গবেষণাপত্র ও গাণিতিক ভিত্তি</span>
+        </a>
+    </div>
+</div>
+</div>
     </section>
 
-    <!-- Clean Modern Multi-Column Footer -->
+        <!-- Modern Farmer Advisory Summary Banner -->
+            <!-- Clean Modern Multi-Column Footer -->
     <footer class="site-footer-white" style="margin-top: 0; padding: 45px 0 25px 0; background: #ffffff; border-top: 1.5px solid #e8f5e9;">
         <div class="container">
             <!-- Main Footer 4 Columns -->
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 30px; margin-bottom: 35px;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 100px; margin-bottom: 35px;">
                 <!-- Col 1: About Platform -->
                 <div>
                     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
                         <span style="font-size: 1.4rem;">🌾</span>
-                        <strong style="font-size: 1.1rem; color: var(--green-primary);" data-i18n="footer_col1_title">AgriXAI • কৃষি-পরামর্শক</strong>
+                        <strong style="font-size: 1.1rem; color: var(--green-primary);">AgriXAI • কৃষি-পরামর্শক</strong>
                     </div>
-                    <p style="font-size: 0.84rem; color: var(--text-secondary); line-height: 1.6; margin: 0;" data-i18n="footer_col1_desc">
+                    <p style="font-size: 0.84rem; color: var(--text-secondary); line-height: 1.6; margin: 0;">
                         বাংলাদেশের কৃষক ও কৃষি কর্মকর্তাদের জন্য বিশ্বস্ত, ব্যাখ্যাযোগ্য ও মাটির পুষ্টি-সচেতন বাংলা এআই সিস্টেম। ধান ও পাটের রোগ নির্ণয় ও সুষম সার ব্যবস্থাপনায় নিবেদিত।
                     </p>
                 </div>
 
                 <!-- Col 2: Useful Links -->
                 <div>
-                    <strong style="color: #1b4332; font-size: 0.92rem; display: block; margin-bottom: 12px; border-bottom: 2px solid #e8f5e9; padding-bottom: 6px;" data-i18n="footer_col2_title">
+                    <strong style="color: #1b4332; font-size: 0.92rem; display: block; margin-bottom: 12px; border-bottom: 2px solid #e8f5e9; padding-bottom: 6px;">
                         🔗 প্রয়োজনীয় তথ্য ও লিংক
                     </strong>
                     <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.84rem; line-height: 2;">
-                        <li><a href="/about/" style="color: var(--text-secondary); text-decoration: none; display: flex; align-items: center; gap: 6px;"><span style="color: var(--green-primary);">›</span> <span data-i18n="footer_link1">গবেষণা ও পদ্ধতি বিবরণী</span></a></li>
-                        <li><a href="http://barc.gov.bd" target="_blank" rel="noopener" style="color: var(--text-secondary); text-decoration: none; display: flex; align-items: center; gap: 6px;"><span style="color: var(--green-primary);">›</span> <span data-i18n="footer_link2">বাংলাদেশ কৃষি গবেষণা কাউন্সিল (BARC)</span></a></li>
-                        <li><a href="http://brri.gov.bd" target="_blank" rel="noopener" style="color: var(--text-secondary); text-decoration: none; display: flex; align-items: center; gap: 6px;"><span style="color: var(--green-primary);">›</span> <span data-i18n="footer_link3">বাংলাদেশ ধান গবেষণা ইনস্টিটিউট (BRRI)</span></a></li>
-                        <li><a href="http://bjri.gov.bd" target="_blank" rel="noopener" style="color: var(--text-secondary); text-decoration: none; display: flex; align-items: center; gap: 6px;"><span style="color: var(--green-primary);">›</span> <span data-i18n="footer_link4">বাংলাদেশ পাট গবেষণা ইনস্টিটিউট (BJRI)</span></a></li>
+                        <li><a href="/about/" style="color: var(--text-secondary); text-decoration: none; display: flex; align-items: center; gap: 6px;"><span style="color: var(--green-primary);">›</span> গবেষণা ও পদ্ধতি বিবরণী</a></li>
+                        <li><a href="http://barc.gov.bd" target="_blank" rel="noopener" style="color: var(--text-secondary); text-decoration: none; display: flex; align-items: center; gap: 6px;"><span style="color: var(--green-primary);">›</span> বাংলাদেশ কৃষি গবেষণা কাউন্সিল (BARC)</a></li>
+                        <li><a href="http://brri.gov.bd" target="_blank" rel="noopener" style="color: var(--text-secondary); text-decoration: none; display: flex; align-items: center; gap: 6px;"><span style="color: var(--green-primary);">›</span> বাংলাদেশ ধান গবেষণা ইনস্টিটিউট (BRRI)</a></li>
+                        <li><a href="http://bjri.gov.bd" target="_blank" rel="noopener" style="color: var(--text-secondary); text-decoration: none; display: flex; align-items: center; gap: 6px;"><span style="color: var(--green-primary);">›</span> বাংলাদেশ পাট গবেষণা ইনস্টিটিউট (BJRI)</a></li>
                     </ul>
                 </div>
 
                 <!-- Col 3: Support & Helplines -->
                 <div>
-                    <strong style="color: #1b4332; font-size: 0.92rem; display: block; margin-bottom: 12px; border-bottom: 2px solid #e8f5e9; padding-bottom: 6px;" data-i18n="footer_col3_title">
+                    <strong style="color: #1b4332; font-size: 0.92rem; display: block; margin-bottom: 12px; border-bottom: 2px solid #e8f5e9; padding-bottom: 6px;">
                         ☎️ কৃষক সহায়তা ও হেল্পলাইন
                     </strong>
                     <div style="font-size: 0.84rem; color: var(--text-secondary); line-height: 1.6;">
-                        <p style="margin: 0 0 8px 0;" data-i18n="footer_helpline1">
+                        <p style="margin: 0 0 8px 0;">
                             <strong>কৃষি কল সেন্টার:</strong> <span style="color: var(--green-primary); font-weight: 800; font-size: 0.95rem;">১৬১২৩</span> (টোল-ফ্রি)
                         </p>
-                        <p style="margin: 0 0 8px 0;" data-i18n="footer_helpline2">
-                            <strong>জাতীয় জরুরি সেবা:</strong> <span style="font-weight: 700;">৯৯৯</span> | <strong>সরকারি তথ্য:</strong> <span style="font-weight: 700;">৩৩৩</span>
+                        <p style="margin: 0 0 8px 0;">
+                            <strong>জাতীয় জরুরি সেবা:</strong> <span style="font-weight: 700;">৯৯৯</span> 
                         </p>
-                        <p style="margin: 0 0 8px 0;" data-i18n="footer_helpline3">
+                        <p style="margin: 0 0 8px 0;">
                             <strong>মাঠ পরামর্শ:</strong> নিকটস্থ উপসহকারী কৃষি কর্মকর্তা (SAAO / DAE) এর সাথে যোগাযোগ করুন।
                         </p>
                     </div>
@@ -762,16 +793,16 @@
 
                 <!-- Col 4: Researcher & Department -->
                 <div>
-                    <strong style="color: #1b4332; font-size: 0.92rem; display: block; margin-bottom: 12px; border-bottom: 2px solid #e8f5e9; padding-bottom: 6px;" data-i18n="footer_col4_title">
+                    <strong style="color: #1b4332; font-size: 0.92rem; display: block; margin-bottom: 12px; border-bottom: 2px solid #e8f5e9; padding-bottom: 6px;">
                         🎓 গবেষণা ও তত্ত্বাবধান
                     </strong>
                     <div style="font-size: 0.84rem; color: var(--text-secondary); line-height: 1.6;">
-                        <p style="margin: 0 0 8px 0;" data-i18n="footer_researcher">
+                        <p style="margin: 0 0 8px 0;">
                             <strong>গবেষক:</strong> <span style="color: #1b4332; font-weight: 700;">ফাতেমা আক্তার (Fatema Akter)</span>
                         </p>
-                        <p style="margin: 0; font-size: 0.82rem; color: #555;" data-i18n="footer_dept">
+                        <p style="margin: 0; font-size: 0.82rem; color: #555;">
                             কম্পিউটার বিজ্ঞান ও প্রকৌশল বিভাগ<br>
-                            <strong>ড্যাফোডিল ইন্টারন্যাশনাল ইউনিভার্সিটি (DIU)</strong>
+                        
                         </p>
                     </div>
                 </div>
@@ -779,15 +810,17 @@
 
             <!-- Bottom Copyright Sub-Footer -->
             <div style="padding-top: 18px; border-top: 1px solid #edf5ed; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; font-size: 0.82rem; color: var(--text-muted);">
-                <div data-i18n="footer_copy">
+                <div>
                     © 2026 <strong>AgriXAI</strong> • Daffodil International University • An Explainable AI Crop Advisory System
                 </div>
-                <div style="color: var(--green-primary); font-weight: 700;" data-i18n="footer_tagline">
+                <div style="color: var(--green-primary); font-weight: 700;">
                     AgriXAI - Making farmers' lives easy 🌾
                 </div>
             </div>
         </div>
     </footer>
+
+
 
     <script src="/static/js/main.js"></script>
 </body>
