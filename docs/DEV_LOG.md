@@ -296,3 +296,6 @@ Add WhiteNoiseMiddleware to settings.py for standalone static asset serving.
 ### [2026-10-06 01:57:54] #098 - feat: add gunicorn server and production deployment configurations
 Update requirements.txt with gunicorn and whitenoise for cloud deployments.
 
+### [2026-10-06 08:53:47] #099 - perf: verify collectstatic pipeline and asset caching headers
+Test collectstatic command and ensure assets compile cleanly to staticfiles.
+

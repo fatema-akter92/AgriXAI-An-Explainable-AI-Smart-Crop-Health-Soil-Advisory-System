@@ -394,3 +394,7 @@ All notable changes to the AgriXAI smart crop health advisor project.
 - **Timestamp:** 2026-10-06 01:57:54
 - **Summary:** Update requirements.txt with gunicorn and whitenoise for cloud deployments.
 
+## Commit 99: perf: verify collectstatic pipeline and asset caching headers
+- **Timestamp:** 2026-10-06 08:53:47
+- **Summary:** Test collectstatic command and ensure assets compile cleanly to staticfiles.
+
