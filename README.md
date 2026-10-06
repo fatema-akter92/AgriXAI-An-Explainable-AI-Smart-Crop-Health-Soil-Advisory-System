@@ -8,7 +8,7 @@ An intelligent, explainable web platform built with **Python & Django** for dete
 -------------
 
 ### 🌐 Live Link:
-Visit: ****
+Visit: **https://agrixai-an-explainable-ai-smart-crop.onrender.com/**
 
 -----------------
 
